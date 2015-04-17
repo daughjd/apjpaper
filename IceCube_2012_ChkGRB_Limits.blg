@@ -2,45 +2,47 @@ This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: IceCube_2012_ChkGRB_Limits.aux
 The style file: apj.bst
 Database file #1: IceCube_2012_ChkGRB_Limits.bib
+Warning--I didn't find a database entry for "?"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 1 entry,
+You've used 6 entries,
             3085 wiz_defined-function locations,
-            641 strings with 4441 characters,
-and the built_in function-call counts, 469 in all, are:
-= -- 41
-> -- 22
+            687 strings with 5878 characters,
+and the built_in function-call counts, 3075 in all, are:
+= -- 233
+> -- 252
 < -- 1
-+ -- 7
-- -- 7
-* -- 34
-:= -- 87
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 19
-empty$ -- 32
-format.name$ -- 11
-if$ -- 95
++ -- 81
+- -- 90
+* -- 284
+:= -- 594
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 33
+chr.to.int$ -- 6
+cite$ -- 6
+duplicate$ -- 115
+empty$ -- 174
+format.name$ -- 99
+if$ -- 603
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 7
-num.names$ -- 4
-pop$ -- 6
+missing$ -- 6
+newline$ -- 22
+num.names$ -- 24
+pop$ -- 37
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 33
 quote$ -- 0
-skip$ -- 21
+skip$ -- 98
 stack$ -- 0
-substring$ -- 30
+substring$ -- 134
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 9
+type$ -- 54
 warning$ -- 0
-while$ -- 4
+while$ -- 19
 width$ -- 0
-write$ -- 13
+write$ -- 63
+(There was 1 warning)

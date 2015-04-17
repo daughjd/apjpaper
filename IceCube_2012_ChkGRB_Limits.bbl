@@ -1,7 +1,34 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
+\bibitem[{{Aartsen} {et~al.}(2014){Aartsen}, {Ackermann}, {Adams}, {Aguilar},
+  {Ahlers}, {Ahrens}, {Altmann}, {Anderson}, {Arguelles}, {Arlen}, \&
+  et~al.}]{2014ApJ...796..109A}
+{Aartsen}, M.~G., {Ackermann}, M., {Adams}, J., {et~al.} 2014, \apj, 796, 109
+
+\bibitem[{{Aartsen} {et~al.}(2015){Aartsen}, {Ackermann}, {Adams}, {Aguilar},
+  {Ahlers}, {Ahrens}, {Altmann}, {Anderson}, {Arguelles}, {Arlen}, \&
+  et~al.}]{2015arXiv150300598A}
+---. 2015, ArXiv e-prints, arXiv:1503.00598
+
+\bibitem[{{Abbasi} {et~al.}(2012){Abbasi}, {Abdou}, {Abu-Zayyad}, {Ackermann},
+  {Adams}, {Aguilar}, {Ahlers}, {Allen}, {Altmann}, {Andeen}, \&
+  et~al.}]{2012APh....35..615A}
+{Abbasi}, R., {Abdou}, Y., {Abu-Zayyad}, T., {et~al.} 2012, Astroparticle
+  Physics, 35, 615
+
 \bibitem[{{Ando} \& {Beacom}(2005)}]{2005PhRvL..95f1103A}
 {Ando}, S., \& {Beacom}, J.~F. 2005, Physical Review Letters, 95, 061103
+
+\bibitem[{{IceCube Collaboration} {et~al.}(2006){IceCube Collaboration},
+  {Achterberg}, {Ackermann}, {Adams}, {Ahrens}, {Andeen}, {Atlee}, {Baccus},
+  {Bahcall}, {Bai}, \& et~al.}]{2006APh....26..155I}
+{IceCube Collaboration}, {Achterberg}, A., {Ackermann}, M., {et~al.} 2006,
+  Astroparticle Physics, 26, 155
+
+\bibitem[{{Razzaque} {et~al.}(2004){Razzaque}, {M{\'e}sz{\'a}ros}, \&
+  {Waxman}}]{2004PhRvL..93r1101R}
+{Razzaque}, S., {M{\'e}sz{\'a}ros}, P., \& {Waxman}, E. 2004, Physical Review
+  Letters, 93, 181101
 
 \end{thebibliography}
