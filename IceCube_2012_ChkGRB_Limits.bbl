@@ -1,0 +1,7 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Ando} \& {Beacom}(2005)}]{2005PhRvL..95f1103A}
+{Ando}, S., \& {Beacom}, J.~F. 2005, Physical Review Letters, 95, 061103
+
+\end{thebibliography}
