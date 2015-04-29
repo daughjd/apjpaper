@@ -1,4 +1,5 @@
 \documentclass[manuscript]{aastex}
+\usepackage{booktabs}
 
 \usepackage{natbib}
 \bibliographystyle{apj}
@@ -50,7 +51,7 @@ Because of the strong atmospheric neutrino background in this energy range, sear
 
 Perhaps the most promising potential source for this analysis is a special class of core-collapse supernova referred to as a choked GRB. There is an observed correlation between long duration gamma-ray bursts (GRBs) and core-collapse supernovae (SNe) \cite{?}.  The standard GRB model assumes that relativistic jets are generated during accretion of material onto the compact object formed during core-collapse \cite{?}. Fermi-acceleration of charged particles occurs within internal shocks of these jets leading to gamma ray emission once the jets breach the surrounding stellar envelope.  The observed fraction of SNe resulting in the occurrence of a GRB is quite low, however, it may be that a larger fraction of core-collapse SNe still manage to produce mildly relativistic jets \cite{?}.  Due to insufficient energy, these jets fail to break through the stellar envelope and any gamma ray emission is effectively 'choked' off. If protons are accelerated in these jets, then neutrino production will occur in the shocks of the jet irrespective of whether or not the jet successfully escapes. A model of this neutrino emission proposed by \cite{2004PhRvL..93r1101R} and extended upon by \cite{2005PhRvL..95f1103A} suggests that these neutrinos may be detectable by IceCube-DeepCore for nearby supernovae.
 
-We present the results of a search for transient neutrino emission on a set of low-energy neutrino event data collected from May 15th, 2012 to April 30th, 2013. The data selection methods used to acquire this unique event sample will be detailed in Sec. 2. Analysis methods and search techniques are discussed in Sec. 3. 
+We present the results of a search for transient neutrino emission on a set of low-energy neutrino event data collected from May 15th, 2012 to April 30th, 2013. The data selection methods used to acquire this unique event sample will be detailed in Sec. 2. Analysis methods and search techniques are discussed in Sec. 3. Lastly, the results of the search are given in Sec. 4 in addition to how these results may be interpreted within the context of generic neutrino flares as well as choked GRBs.
 \section{Event Selection}
 The IceCube detector is primarily designed for the detection of high-energy ($E_{\nu} \geq 1$ TeV) muon neutrinos originating from the Northern sky. However, the addition of the DeepCore sub-array in combination with veto techniques allow for significant lowering of the detection threshold energy. This increased sensitivity to 100-GeV scale neutrinos has already been used extensively in indirect dark matter searches \cite{}.
 
@@ -62,6 +63,26 @@ The selection process begins with the output of the DeepCore filter, a data filt
 
 
 \section{Results and Interpretations}
+Applying the defined analysis method on the unscrambled dataset yields a skymap of the pre-trials p-values derived from the maximized test statistic for each bin. This map is shown in Figure \ref{fig:RealSkyMap}. The black circle in Figure \ref{fig:RealSkyMap} shows the hottest spot after the completion of the sky scan. The best fit to flare parameters for this hot spot are listed in Table \ref{tab:best_fit_flare}. 
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ccccccc}
+  \toprule
+R.A. &  Dec & $\hat{n}_s$ & $\hat{t}_0 [MJD]$ & $\hat{\sigma}_w [days]$ & p-value & p-value post-trial \\
+\midrule
+268.75$^{\circ}$ & 54.25$^{\circ}$ & 13.528 & 56107.8 & 5.89 & 4.1751 & 56$\%$\\
+\end{tabular}
+\end{center}
+\caption[Best-fit signal parameters]{Best-fit values for flare location, duration, strength and time.\label{tab:best_fit_flare}}
+\end{table}
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/RealResultSkyMap.png}
+  \end{center}
+  \caption[Results Sky Map]{Sky map of pre-trials p-values for best fit flares per bin. The black circle identifies the location of the most significant flare found at RA = 268.75$^\circ$ and Declination = 54.25$^\circ$.}
+  \label{fig:RealSkyMap}
+\end{figure}
 
 
 %% In a manner similar to \objectname authors can provide links to dataset
