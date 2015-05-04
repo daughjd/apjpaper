@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  29 APR 2015 15:56
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  4 MAY 2015 16:16
 entering extended mode
  %&-line parsing enabled.
 **IceCube_2012_LowEnTransient.tex
@@ -184,11 +184,31 @@ Package natbib Warning: Citation `?' on page 4 undefined on input line 52.
 
 Package natbib Warning: Citation `?' on page 4 undefined on input line 52.
 
-[4] [5] <plots/RealResultSkyMap.png, id=26, 1092.7224pt x 731.3724pt>
+[4]
+<plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6.png, id=23, 722.
+7pt x 578.16pt>
+File: plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6.png Graphic
+ file (type png)
+
+<use plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6.png>
+[5] [6 <./plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6.png>]
+<plots/RealResultSkyMap.png, id=31, 1092.7224pt x 731.3724pt>
 File: plots/RealResultSkyMap.png Graphic file (type png)
 
-<use plots/RealResultSkyMap.png> (./IceCube_2012_LowEnTransient.bbl [6]
-[7 <./plots/RealResultSkyMap.png>]) [8
+<use plots/RealResultSkyMap.png>
+<plots/LowEnTransient_NEventSensitivity_E3_G1460_Dec16_DoubleY2.png, id=32, 722
+.7pt x 578.16pt>
+File: plots/LowEnTransient_NEventSensitivity_E3_G1460_Dec16_DoubleY2.png Graphi
+c file (type png)
+
+<use plots/LowEnTransient_NEventSensitivity_E3_G1460_Dec16_DoubleY2.png>
+<plots/RateLimit_2DHisto_wContours_SysAdj.png, id=33, 578.16pt x 433.62pt>
+File: plots/RateLimit_2DHisto_wContours_SysAdj.png Graphic file (type png)
+
+<use plots/RateLimit_2DHisto_wContours_SysAdj.png>
+(./IceCube_2012_LowEnTransient.bbl [7] [8 <./plots/RealResultSkyMap.png>]
+[9 <./plots/LowEnTransient_NEventSensitivity_E3_G1460_Dec16_DoubleY2.png>]
+[10 <./plots/RateLimit_2DHisto_wContours_SysAdj.png>]) [11
 
 ]
 
@@ -196,13 +216,13 @@ Package natbib Warning: There were undefined citations.
 
 (./IceCube_2012_LowEnTransient.aux) ) 
 Here is how much of TeX's memory you used:
- 1792 strings out of 256216
- 20401 string characters out of 1917072
- 72844 words of memory out of 1500000
- 5082 multiletter control sequences out of 10000+200000
+ 1810 strings out of 256216
+ 21384 string characters out of 1917072
+ 71844 words of memory out of 1500000
+ 5097 multiletter control sequences out of 10000+200000
  10170 words of font info for 40 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 32i,10n,26p,1363b,249s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 32i,10n,26p,1363b,251s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/c
 mbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb></usr/share/texmf
 /fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr1
@@ -210,9 +230,9 @@ mbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi12.pfb></usr/share/texmf
 s/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb
 ></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/typ
 e1/bluesky/cm/cmti10.pfb>
-Output written on IceCube_2012_LowEnTransient.pdf (8 pages, 343677 bytes).
+Output written on IceCube_2012_LowEnTransient.pdf (11 pages, 486031 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -49,15 +49,23 @@ IceCube analyses attempting to resolve astrophysical neutrino sources typically 
 
 Because of the strong atmospheric neutrino background in this energy range, searches using a data set composed of these low energy events will only be sensitive to time-dependent emission. Some potential sources include flaring from active galactic nuclei (AGN) due to brief periods of enhanced accretion \cite{?}, 100-GeV scale sub-photospheric neutrino emission from gamma-ray bursts \cite{?}, and neutrino emission from mildly relativistic jets in core-collapse supernovae. If the emission spectra for these sources are sufficiently soft or feature an energy cutoff below the optimum energy for IceCube, they may not be visible to the traditional IceCube point source searches.
 
-Perhaps the most promising potential source for this analysis is a special class of core-collapse supernova referred to as a choked GRB. There is an observed correlation between long duration gamma-ray bursts (GRBs) and core-collapse supernovae (SNe) \cite{?}.  The standard GRB model assumes that relativistic jets are generated during accretion of material onto the compact object formed during core-collapse \cite{?}. Fermi-acceleration of charged particles occurs within internal shocks of these jets leading to gamma ray emission once the jets breach the surrounding stellar envelope.  The observed fraction of SNe resulting in the occurrence of a GRB is quite low, however, it may be that a larger fraction of core-collapse SNe still manage to produce mildly relativistic jets \cite{?}.  Due to insufficient energy, these jets fail to break through the stellar envelope and any gamma ray emission is effectively 'choked' off. If protons are accelerated in these jets, then neutrino production will occur in the shocks of the jet irrespective of whether or not the jet successfully escapes. A model of this neutrino emission proposed by \cite{2004PhRvL..93r1101R} and extended upon by \cite{2005PhRvL..95f1103A} suggests that these neutrinos may be detectable by IceCube-DeepCore for nearby supernovae.
+Perhaps the most promising potential source for this analysis is a special class of core-collapse supernova referred to as a choked GRB. There is an observed correlation between long duration gamma-ray bursts (GRBs) and core-collapse supernovae (SNe) \cite{?}.  The standard GRB model assumes that relativistic jets are generated during accretion of material onto the compact object formed during core-collapse \cite{?}. Fermi-acceleration of charged particles occurs within internal shocks of these jets leading to gamma ray emission once the jets breach the surrounding stellar envelope.  The observed fraction of SNe resulting in the occurrence of a GRB is quite low, however, it may be that a larger fraction of core-collapse SNe still manage to produce mildly relativistic jets \cite{?}.  Due to insufficient energy, these jets fail to break through the stellar envelope and any gamma ray emission is effectively `choked' off. If protons are accelerated in these jets, then neutrino production will occur in the shocks of the jet irrespective of whether or not the jet successfully escapes. A model of this neutrino emission proposed by \cite{2004PhRvL..93r1101R} and extended upon by \cite{2005PhRvL..95f1103A} suggests that these neutrinos may be detectable by IceCube-DeepCore for nearby supernovae.
 
 We present the results of a search for transient neutrino emission on a set of low-energy neutrino event data collected from May 15th, 2012 to April 30th, 2013. The data selection methods used to acquire this unique event sample will be detailed in Sec. 2. Analysis methods and search techniques are discussed in Sec. 3. Lastly, the results of the search are given in Sec. 4 in addition to how these results may be interpreted within the context of generic neutrino flares as well as choked GRBs.
 \section{Event Selection}
-The IceCube detector is primarily designed for the detection of high-energy ($E_{\nu} \geq 1$ TeV) muon neutrinos originating from the Northern sky. However, the addition of the DeepCore sub-array in combination with veto techniques allow for significant lowering of the detection threshold energy. This increased sensitivity to 100-GeV scale neutrinos has already been used extensively in indirect dark matter searches \cite{}.
+The IceCube detector is primarily designed for the detection of high-energy ($E_{\nu} \geq 1$ TeV) muon neutrinos originating from the Northern sky. However, the addition of the DeepCore sub-array in combination with veto techniques allow for significant lowering of the detection threshold energy.
 
-\subsection{DeepCore Filter}
-The selection process begins with the output of the DeepCore filter, a data filter designed to isolate low-energy events interacting within a defined volume about the central DeepCore portion of IceCube.
+\subsection{Veto and Topology Cuts}
+The selection process begins with the output of the DeepCore filter, a data filter designed to isolate low-energy events interacting within a defined volume about the central DeepCore portion of IceCube. 
 \subsection{Boosted Decision Tree}
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6.png}
+  \end{center}
+  \caption[Low-Energy Event Branch BDT Score Distribution]{[add caption]}
+  \label{fig:LESBDTDistribution}
+\end{figure}
 
 \section{Analysis Method}
 
@@ -84,112 +92,25 @@ R.A. &  Dec & $\hat{n}_s$ & $\hat{t}_0 [MJD]$ & $\hat{\sigma}_w [days]$ & p-valu
   \label{fig:RealSkyMap}
 \end{figure}
 
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/LowEnTransient_NEventSensitivity_E3_G1460_Dec16_DoubleY2.png}
+  \end{center}
+  \caption[Time-integrated Flux Limit for E$^{-3}$ Source]{[add caption]}
+  \label{fig:GenericE3Limit}
+\end{figure}
 
-%% In a manner similar to \objectname authors can provide links to dataset
-%% hosted at participating data centers via the \dataset{} command.  The
-%% second curly bracket argument is printed in the text while the first
-%% parentheses argument serves as the valid data set identifier.  Large
-%% lists of data set are best provided in a table (see Table 3 for an example).
-%% Valid data set identifiers should be obtained from the data center that
-%% is currently hosting the data.
-%%
-%% Note that AASTeX interprets everything between the curly braces in the 
-%% macro as regular text, so any special characters, e.g. "#" or "_," must be 
-%% preceded by a backslash. Otherwise, you will get a LaTeX error when you 
-%% compile your manuscript.  Special characters do not 
-%% need to be escaped in the optional, square-bracket argument.
-
-%% In this section, we use  the \subsection command to set off
-%% a subsection.  \footnote is used to insert a footnote to the text.
-
-%% Observe the use of the LaTeX \label
-%% command after the \subsection to give a symbolic KEY to the
-%% subsection for cross-referencing in a \ref command.
-%% You can use LaTeX's \ref and \label commands to keep track of
-%% cross-references to sections, equations, tables, and figures.
-%% That way, if you change the order of any elements, LaTeX will
-%% automatically renumber them.
-
-%% This section also includes several of the displayed math environments
-%% mentioned in the Author Guide.
-
-%% The equation environment wil produce a numbered display equation.
-
-%% The \notetoeditor{TEXT} command allows the author to communicate
-%% information to the copy editor.  This information will appear as a
-%% footnote on the printed copy for the manuscript style file.  Nothing will
-%% appear on the printed copy if the preprint or
-%% preprint2 style files are used.
-
-%% The eqnarray environment produces multi-line display math. The end of
-%% each line is marked with a \\. Lines will be numbered unless the \\
-%% is preceded by a \nonumber command.
-%% Alignment points are marked by ampersands (&). There should be two
-%% ampersands (&) per line.
-
-%% If you wish to include an acknowledgments section in your paper,
-%% separate it off from the body of the text using the \acknowledgments
-%% command.
-
-%% Included in this acknowledgments section are examples of the
-%% AASTeX hypertext markup commands. Use \url without the optional [HREF]
-%% argument when you want to print the url directly in the text. Otherwise,
-%% use either \url or \anchor, with the HREF as the first argument and the
-%% text to be printed in the second.
-
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/RateLimit_2DHisto_wContours_SysAdj.png}
+  \end{center}
+  \caption[Choked GRB Volumetric Rate Limit]{[add caption]}
+  \label{fig:VolumetricRateLimit}
+\end{figure}
 \acknowledgments
 
 
 
-%% To help institutions obtain information on the effectiveness of their
-%% telescopes, the AAS Journals has created a group of keywords for telescope
-%% facilities. A common set of keywords will make these types of searches
-%% significantly easier and more accurate. In addition, they will also be
-%% useful in linking papers together which utilize the same telescopes
-%% within the framework of the National Virtual Observatory.
-%% See the AASTeX Web site at http://aastex.aas.org/
-%% for information on obtaining the facility keywords.
-
-%% After the acknowledgments section, use the following syntax and the
-%% \facility{} macro to list the keywords of facilities used in the research
-%% for the paper.  Each keyword will be checked against the master list during
-%% copy editing.  Individual instruments or configurations can be provided 
-%% in parentheses, after the keyword, but they will not be verified.
-
-
-%% Appendix material should be preceded with a single \appendix command.
-%% There should be a \section command for each appendix. Mark appendix
-%% subsections with the same markup you use in the main body of the paper.
-
-%% Each Appendix (indicated with \section) will be lettered A, B, C, etc.
-%% The equation counter will reset when it encounters the \appendix
-%% command and will number appendix equations (A1), (A2), etc.
-
-
-%% The reference list follows the main body and any appendices.
-%% Use LaTeX's thebibliography environment to mark up your reference list.
-%% Note \begin{thebibliography} is followed by an empty set of
-%% curly braces.  If you forget this, LaTeX will generate the error
-%% "Perhaps a missing \item?".
-%%
-%% thebibliography produces citations in the text using \bibitem-\cite
-%% cross-referencing. Each reference is preceded by a
-%% \bibitem command that defines in curly braces the KEY that corresponds
-%% to the KEY in the \cite commands (see the first section above).
-%% Make sure that you provide a unique KEY for every \bibitem or else the
-%% paper will not LaTeX. The square brackets should contain
-%% the citation text that LaTeX will insert in
-%% place of the \cite commands.
-
-%% We have used macros to produce journal name abbreviations.
-%% AASTeX provides a number of these for the more frequently-cited journals.
-%% See the Author Guide for a list of them.
-
-%% Note that the style of the \bibitem labels (in []) is slightly
-%% different from previous examples.  The natbib system solves a host
-%% of citation expression problems, but it is necessary to clearly
-%% delimit the year from the author name used in the citation.
-%% See the natbib documentation for more details and options.
 
 \bibliography{IceCube_2012_ChkGRB_Limits}{}
 
@@ -287,6 +208,3 @@ R.A. &  Dec & $\hat{n}_s$ & $\hat{t}_0 [MJD]$ & $\hat{\sigma}_w [days]$ & p-valu
 
 
 \end{document}
-
-%%
-%% End of file `sample.tex'.
