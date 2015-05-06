@@ -68,10 +68,32 @@ The selection process begins with the output of the DeepCore filter, a data filt
 \end{figure}
 
 \section{Analysis Method}
+The search methods employed in the analysis of this data are nearly identical to those used in previous time-dependent IceCube analyses (see \cite{?} and \cite{?}). The arrival times and directions of events within the dataset are fed to a likelihood function which is then used to compare a signal plus background hypothesis of the data to a background only hypothesis.
+
+Construction of this likelihood function begins with the assignment of individual event probabilities that reflect the likelihood of seeing an event $i$ arriving at $t_o$ with reconstructed direction $x_i$ given a hypothetical source located at $\vec{x}_s$ with strength $n_s$ and some time profile.
+\begin{equation}\label{eq:EventProb}
+\mathcal{P}_i(\vec{x}_i,t_i|\vec{x}_s,n_s,T_o) = \frac{n_s}{n_{\mathrm{tot}}} \mathcal{S}_i + \left(1-\frac{n_s}{n_{\mathrm{tot}}}\right) \mathcal{B}_i
+\end{equation}
+The $\mathcal{S}_i$ and $\mathcal{B}_i$ terms listed in Eq. \ref{eq:EventProb} are the signal and background probability density functions (p.d.f.) respectively. The p.d.f.s used in this search differ slightly from those in previously reported searches in that they use no reconstructed energy information. The signal p.d.f. has the following form
+\begin{equation}
+\mathcal{S}_i(|\mathbf{x}_i-\mathbf{x}_s|,t_i,t_o,\sigma_w,\sigma_i) = S_i(|\mathbf{x}_i-\mathbf{x}_s|,\sigma_i) \cdot T_i(t_i,t_o,\sigma_w)
+\end{equation}
+where
+\begin{equation}
+S_i(|\mathbf{x}_i-\mathbf{x}_s|,\sigma_i) = \frac{\kappa}{4\pi \sinh \kappa} \exp \left(\kappa \cos |\mathbf{x}_i-\mathbf{x_s}|\right)
+\end{equation}
+and
+\begin{equation}
+T_i(t_i,t_o,\sigma_w) = \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o)^2}{2 \sigma_w^2}\right)
+\end{equation}
+The spatial term $S_i$ is the Kent-Fisher distribution, and it is analogous to the Gaussian distribution normalized to the 2-sphere \cite{Fisher_Bingham}.
+
+[Sky scan]
+
 
 
 \section{Results and Interpretations}
-Applying the defined analysis method on the unscrambled dataset yields a skymap of the pre-trials p-values derived from the maximized test statistic for each bin. This map is shown in Figure \ref{fig:RealSkyMap}. The black circle in Figure \ref{fig:RealSkyMap} shows the hottest spot after the completion of the sky scan. The best fit to flare parameters for this hot spot are listed in Table \ref{tab:best_fit_flare}. 
+Applying the described analysis method on the unscrambled dataset yields a skymap of the pre-trials p-values derived from the maximized test statistic for each bin. This map is shown in Figure \ref{fig:RealSkyMap}. The black circle in Figure \ref{fig:RealSkyMap} shows the hottest spot after the completion of the sky scan. The best fit to flare parameters for this hot spot are listed in Table \ref{tab:best_fit_flare}. 
 \begin{table}[h]
 \begin{center}
 \begin{tabular}{ccccccc}
@@ -112,7 +134,7 @@ R.A. &  Dec & $\hat{n}_s$ & $\hat{t}_0 [MJD]$ & $\hat{\sigma}_w [days]$ & p-valu
 
 
 
-\bibliography{IceCube_2012_ChkGRB_Limits}{}
+\bibliography{IceCube_2012_LowEnTransient}{}
 
 \clearpage
 
