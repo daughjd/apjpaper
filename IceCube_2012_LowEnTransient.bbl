@@ -20,6 +20,11 @@
 \bibitem[{{Ando} \& {Beacom}(2005)}]{2005PhRvL..95f1103A}
 {Ando}, S., \& {Beacom}, J.~F. 2005, Physical Review Letters, 95, 061103
 
+\bibitem[{{Braun} {et~al.}(2008){Braun}, {Dumm}, {De Palma}, {Finley}, {Karle},
+  \& {Montaruli}}]{2008APh....29..299B}
+{Braun}, J., {Dumm}, J., {De Palma}, F., {et~al.} 2008, Astroparticle Physics,
+  29, 299
+
 \bibitem[{{IceCube Collaboration} {et~al.}(2006){IceCube Collaboration},
   {Achterberg}, {Ackermann}, {Adams}, {Ahrens}, {Andeen}, {Atlee}, {Baccus},
   {Bahcall}, {Bai}, \& et~al.}]{2006APh....26..155I}
@@ -34,5 +39,8 @@ Kent, J.~T. 1982, Journal of the Royal Statistical Society. Series B
   {Waxman}}]{2004PhRvL..93r1101R}
 {Razzaque}, S., {M{\'e}sz{\'a}ros}, P., \& {Waxman}, E. 2004, Physical Review
   Letters, 93, 181101
+
+\bibitem[{Taboada(2010)}]{PhysRevD.81.083011}
+Taboada, I. 2010, Phys. Rev. D, 81, 083011
 
 \end{thebibliography}
