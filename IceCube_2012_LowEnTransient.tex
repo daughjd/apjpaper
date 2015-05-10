@@ -89,6 +89,16 @@ T_i(t_i,t_o,\sigma_w) = \frac{1}{\sqrt{2\pi}\sigma_w} \exp \left(-\frac{(t_i-t_o
 where $t_0$ is the mean time of the source 
 The spatial term, $S_i$, is the Kent-Fisher distribution, and it is analogous to the Gaussian distribution normalized to the 2-sphere \citep{Fisher_Bingham}. This represents another deviation from previous methods which instead use a 
 
+\begin{equation}\label{eq:LLH}
+\mathcal{L}(\mathbf{x}_s,n_s,t_o,\sigma_w) = \prod \mathcal{P}_i(|\mathbf{x}_i-\mathbf{x}_s|,n_s,t_i,t_o,\sigma_w,\sigma_i)
+\end{equation}
+
+\begin{equation}
+\hat{\lambda} = 2\log \left[\frac{\sqrt{2\pi}\hat{\sigma}_w}{T}\frac{\mathcal{L}(\mathbf{x}_s,\hat{n}_s,\hat{t}_o,\hat{\sigma}_w)}{\mathcal{L}(n_s = 0)} \right]
+\end{equation}
+
+
+
 [Sky scan]
 
 
