@@ -20,6 +20,14 @@
 \bibitem[{{Ando} \& {Beacom}(2005)}]{2005PhRvL..95f1103A}
 {Ando}, S., \& {Beacom}, J.~F. 2005, Physical Review Letters, 95, 061103
 
+\bibitem[{{Becker} \& {Biermann}(2009)}]{2009APh....31..138B}
+{Becker}, J.~K., \& {Biermann}, P.~L. 2009, Astroparticle Physics, 31, 138
+
+\bibitem[{{Braun} {et~al.}(2010){Braun}, {Baker}, {Dumm}, {Finley}, {Karle}, \&
+  {Montaruli}}]{2010APh....33..175B}
+{Braun}, J., {Baker}, M., {Dumm}, J., {et~al.} 2010, Astroparticle Physics, 33,
+  175
+
 \bibitem[{{Braun} {et~al.}(2008){Braun}, {Dumm}, {De Palma}, {Finley}, {Karle},
   \& {Montaruli}}]{2008APh....29..299B}
 {Braun}, J., {Dumm}, J., {De Palma}, F., {et~al.} 2008, Astroparticle Physics,
@@ -35,6 +43,9 @@
 Kent, J.~T. 1982, Journal of the Royal Statistical Society. Series B
   (Methodological), 44, pp. 71
 
+\bibitem[{{Modjaz}(2011)}]{2011AN....332..434M}
+{Modjaz}, M. 2011, Astronomische Nachrichten, 332, 434
+
 \bibitem[{{Murase} {et~al.}(2013){Murase}, {Kashiyama}, \&
   {M{\'e}sz{\'a}ros}}]{2013PhRvL.111m1102M}
 {Murase}, K., {Kashiyama}, K., \& {M{\'e}sz{\'a}ros}, P. 2013, Physical Review
@@ -45,7 +56,15 @@ Kent, J.~T. 1982, Journal of the Royal Statistical Society. Series B
 {Razzaque}, S., {M{\'e}sz{\'a}ros}, P., \& {Waxman}, E. 2004, Physical Review
   Letters, 93, 181101
 
+\bibitem[{{Rees} \& {Meszaros}(1992)}]{1992MNRAS.258P..41R}
+{Rees}, M.~J., \& {Meszaros}, P. 1992, Monthly Notices of the Royal
+  Astronomical Society, 258, 41P
+
 \bibitem[{Taboada(2010)}]{PhysRevD.81.083011}
 Taboada, I. 2010, Phys. Rev. D, 81, 083011
+
+\bibitem[{{Woosley} \& {Bloom}(2006)}]{2006ARA&A..44..507W}
+{Woosley}, S.~E., \& {Bloom}, J.~S. 2006, Annual Review of Astronomy \&
+  Astrophysics, 44, 507
 
 \end{thebibliography}
