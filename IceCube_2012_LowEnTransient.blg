@@ -1,52 +1,50 @@
-This is BibTeX, Version 0.99c (Web2C 7.5.6)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: IceCube_2012_LowEnTransient.aux
 The style file: apj.bst
 Database file #1: IceCube_2012_LowEnTransient.bib
-Repeated entry---line 137 of file IceCube_2012_LowEnTransient.bib
- : @article{2015arXiv150300598A
- :                             ,
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "2009APh....31..138B"
 Warning--I didn't find a database entry for "?"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 9 entries,
+You've used 10 entries,
             3085 wiz_defined-function locations,
-            716 strings with 6556 characters,
-and the built_in function-call counts, 4407 in all, are:
-= -- 349
-> -- 324
+            728 strings with 6816 characters,
+and the built_in function-call counts, 4899 in all, are:
+= -- 393
+> -- 354
 < -- 3
-+ -- 108
-- -- 115
-* -- 385
-:= -- 843
-add.period$ -- 9
-call.type$ -- 9
-change.case$ -- 53
-chr.to.int$ -- 9
-cite$ -- 9
-duplicate$ -- 168
-empty$ -- 264
-format.name$ -- 126
-if$ -- 873
++ -- 118
+- -- 126
+* -- 426
+:= -- 931
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 60
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 187
+empty$ -- 295
+format.name$ -- 138
+if$ -- 974
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 9
-newline$ -- 31
-num.names$ -- 36
-pop$ -- 55
+missing$ -- 10
+newline$ -- 34
+num.names$ -- 40
+pop$ -- 62
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 60
 quote$ -- 0
-skip$ -- 152
+skip$ -- 171
 stack$ -- 0
-substring$ -- 217
+substring$ -- 247
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 81
+type$ -- 90
 warning$ -- 0
-while$ -- 31
+while$ -- 35
 width$ -- 0
-write$ -- 93
-(There was 1 error message)
+write$ -- 103
+(There were 2 warnings)
