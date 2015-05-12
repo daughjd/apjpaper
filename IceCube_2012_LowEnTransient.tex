@@ -41,7 +41,7 @@ We present the results of a search for sources of brief transient neutrino emiss
 
 
 \section{Introduction}
-The nascent field of neutrino astronomy exhibits great potential in its ability to answer several open questions in astrophysics. 
+The nascent field of neutrino astronomy exhibits great potential in its ability to answer several open questions in astrophysics. This is largely due to the ability of the neutrino to probe the densest regions of astrophysical environments. Specifically, the detection of transient astrophysical neutrino sources will help shed light on the acceleration mechanisms at work in some of the most energetic phenomena in the Universe such as gamma-ray bursts, supernovae, and active galactic nuclei.
 
 The detection of astrophysical neutrino sources is a chief goal of the IceCube Neutrino Observatory \citep{2006APh....26..155I}. Located at the geographic South Pole, IceCube utilizes the clear glacial ice of the Antarctic ice cap as a detection medium for the secondary products of neutrino interactions. The detector consists of 5,160 Digital Optical Modules (DOMs) distributed among 86 cables to form a km$^3$ instrumented volume. These DOMs house photomultiplier tubes for the capture of Cherenkov photons as well as digitizing electronics for initial processing of the PMT data. A centrally located region of denser instrumentation featuring DOMs with more sensitive PMTs comprises the sub-array DeepCore \citep{2012APh....35..615A}. This extension to IceCube array augments the detector's response to lower energy neutrino events.
 
@@ -104,28 +104,25 @@ The ratio between the likelihood function values under the background only hypot
 \end{equation}
 with $\mathcal{L}(n_s = 0)$ corresponding to the likelihood of the null hypothesis and $\mathcal{L}(\vec{x}_s,{n}_s,\hat{t}_o,\hat{\sigma}_w)$ the likelihood of the signal plus background hypothesis with the best-fit values of the source parameters. Because this is a search for sources of finite duration over a timescale of limited duration, the number of potential short duration flares within the data set exceeds that of flares of longer duration leading to an effective trials factor. This results in a bias towards flares of shorter duration. We counteract this effect through the introduction of a marginalization term $T/\sqrt{2\pi}\hat{\sigma_w}$ in test statistic formulation which serves to penalize flares of shorter duration. More details about this term and its justification can be found in \cite{2010APh....33..175B}.
 
-The test statistic is defined such that it will asymptotically follow a $\chi^2$ distribution with degrees of freedom corresponding to the number of fitted parameters for data consisting solely of background events. This enables the value of the maximized test statistic $\hat{\lambda}$ to be used to estimate the pre-trials p-value of the best-fit flare. 
-
-This procedure involves scrambling the event arrival times in the final dataset which also serves to scramble event right ascension. 
+The test statistic is defined such that it will asymptotically follow a $\chi^2$ distribution with degrees of freedom corresponding to the number of fitted parameters for data consisting solely of background events. This enables the value of the maximized test statistic $\hat{\lambda}$ to be used to estimate the pre-trials p-value of the best-fit flare. Because this search attempts to look many times over the whole Northern sky, the actual significance of a given flare will need to be adjusted to account for the effective number of trials accrued during the sky scan. We use the procedure detailed in \cite{2015arXiv150300598A} that involves scrambling the event arrival times in the final dataset which also serves to scramble event right ascension. The search is performed on the randomized background data set and the p-value of the most significant flare in the search is recorded. Many iterations are performed to build a distribution of p-values which can then be compared to the p-value of the result from the real data. The fraction of background trials that result in a p-value of equal or greater significance than the observed p-value dictates the probability that the observed result is simply the consequence of a random background fluctuation. This probability is referred to as the post-trials p-value and it represents the true significance of the search result with proper trials factor correction.
 
 In order to preserve generality, the presented search makes no use of information outside of the data set to designate source regions or time periods of interest. Instead, each point in the sky over a declination band ranging from -5$^{\circ}$ to 90$^{\circ}$ is examined. This is accomplished by discretizing the sky into separate bins and letting the location of these bins serve as the location of a hypothetical flaring source. Maximization of the likelihood is then performed at each bin to obtain a test statistic $\hat{\lambda}$ for each bin. The first iteration of this scan uses a relatively coarse 2$^{\circ}$ by 2$^{\circ}$ binning. Following completion of this first scan, a followup scan with finer 0.5$^{\circ}$ by 0.5$^{\circ}$ binning is performed over coarse bins featuring a pre-trials p-value more significant than a predefined threshold ($-\log_{10}($p-value$) > 1.75$). The result is a map of pre-trials p-values which shows the estimated significance of the best-fit flare hypothesis at each bin. The best-fit flare from the bin featuring the most significant maximized test statistic after both scans is returned as the hottest spot in the search.
 
 \section{Results and Interpretations}
-Applying the described analysis method on the unscrambled dataset yields a skymap of the pre-trials p-values derived from the maximized test statistic for each bin. This map is shown in Figure \ref{fig:RealSkyMap}. The black circle in Figure \ref{fig:RealSkyMap} shows the hottest spot after the completion of the sky scan. The best fit to flare parameters for this hot spot are listed in Table \ref{tab:best_fit_flare}. 
-\begin{table}[h]
-\begin{center}
-\begin{tabular}{ccccccc}
-  \toprule
-R.A. &  Dec & $\hat{n}_s$ & $\hat{t}_0 [MJD]$ & $\hat{\sigma}_w [days]$ & p-value & p-value post-trial \\
-\midrule
-268.75$^{\circ}$ & 54.25$^{\circ}$ & 13.528 & 56107.8 & 5.89 & 4.1751 & 56$\%$\\
-\end{tabular}
-\caption[Best-fit signal parameters]{Best-fit values for flare location, duration, strength and time.\label{tab:best_fit_flare}}
-\end{center}
-\end{table}
+Applying the described analysis method on the unscrambled dataset yields the skymap of the pre-trials p-values shown in Figure \ref{fig:RealSkyMap}. The most significant flare found in the data set is located at (RA, Dec.) = (268.75$^{\circ}$, 54.25$^{\circ}$) and has a width $\sigma_w$ of 5.89 days with the peak occuring on MJD 56107 (2012 June 29). 
+%\begin{table}[h]
+%\begin{center}
+%\begin{tabular}{ccccccc}
+%  \toprule
+%R.A. &  Dec & $\hat{n}_s$ & $\hat{t}_0 [MJD]$ & $\hat{\sigma}_w [days]$ & p-value & p-value post-trial \\
+%\midrule
+%268.75$^{\circ}$ & 54.25$^{\circ}$ & 13.528 & 56107.8 & 5.89 & 4.1751 & 56$\%$\\
+%\end{tabular}
+%\caption[Best-fit signal parameters]{Best-fit values for flare location, %duration, strength and time.\label{tab:best_fit_flare}}
+%\end{center}
+%\end{table}
 
-We obtain an event upper limit for a generic neutrino flare through the same method detailed in \cite{}. 
-
+%We obtain an event upper limit for a generic neutrino flare through the same method detailed in \cite{}. 
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/RealResultSkyMap.png}
@@ -138,10 +135,12 @@ We obtain an event upper limit for a generic neutrino flare through the same met
   \begin{center}
     \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/LowEnTransient_NEventSensitivity_E3_G1460_Dec16_DoubleY2.png}
   \end{center}
-  \caption[Time-integrated Flux Limit for E$^{-3}$ Source]{[add caption]}
+  \caption[Time-integrated Flux Limit for E$^{-3}$ Source]{Upper limit (90$\%$ C.L.) for a generic E$^{-3}$ transient source as a function of flare width $\sigma_w$.The limit is given in mean number of events (left axis) as well as in time-integrated flux at a reference energy of 100 GeV (right axis).}
   \label{fig:GenericE3Limit}
 \end{figure}
 
+\subsection{Choked GRB Limits}
+This null result can also be used to construct limits on specific neutrino emission models such as the model for choked GRB emission by \cite{2004PhRvL..93r1101R} and \cite{2005PhRvL..95f1103A} mentioned previously in the introduction.
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/RateLimit_2DHisto_wContours_SysAdj.png}
