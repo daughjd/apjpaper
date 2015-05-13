@@ -109,7 +109,17 @@ The test statistic is defined such that it will asymptotically follow a $\chi^2$
 In order to preserve generality, the presented search makes no use of information outside of the data set to designate source regions or time periods of interest. Instead, each point in the sky over a declination band ranging from -5$^{\circ}$ to 90$^{\circ}$ is examined. This is accomplished by discretizing the sky into separate bins and letting the location of these bins serve as the location of a hypothetical flaring source. Maximization of the likelihood is then performed at each bin to obtain a test statistic $\hat{\lambda}$ for each bin. The first iteration of this scan uses a relatively coarse 2$^{\circ}$ by 2$^{\circ}$ binning. Following completion of this first scan, a followup scan with finer 0.5$^{\circ}$ by 0.5$^{\circ}$ binning is performed over coarse bins featuring a pre-trials p-value more significant than a predefined threshold ($-\log_{10}($p-value$) > 1.75$). The result is a map of pre-trials p-values which shows the estimated significance of the best-fit flare hypothesis at each bin. The best-fit flare from the bin featuring the most significant maximized test statistic after both scans is returned as the hottest spot in the search.
 
 \section{Results and Interpretations}
-Applying the described analysis method on the unscrambled dataset yields the skymap of the pre-trials p-values shown in Figure \ref{fig:RealSkyMap}. The most significant flare found in the data set is located at (RA, Dec.) = (268.75$^{\circ}$, 54.25$^{\circ}$) and has a width $\sigma_w$ of 5.89 days with the peak occuring on MJD 56107 (2012 June 29). 
+Applying the described analysis method on the unscrambled dataset yields the skymap of the pre-trials p-values shown in Figure \ref{fig:RealSkyMap}. The most significant flare is located at (RA, Dec.) = (268.75$^{\circ}$, 54.25$^{\circ}$) with a signal strength $n_s$ of 13.53 signal events and has a width $\sigma_w$ of 5.89 days with the peak occurring on MJD 56107 (2012 June 29). The pre-trials p-value for this flare is estimated at 6.68$\times 10^{-5}$. The post-trials probability of seeing such a flare from background only data is 56$\%$ indicating that this flare is entirely consistent with a background only explanation of the data.
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/RealResultSkyMap.png}
+  \end{center}
+  \caption[Results Sky Map]{Sky map of pre-trials p-values for best fit flares per bin. The black circle identifies the location of the most significant flare found at RA = 268.75$^\circ$ and Declination = 54.25$^\circ$.}
+  \label{fig:RealSkyMap}
+\end{figure}
+Given this null result, we can set an upper limit on the neutrino flux of any possible unobserved neutrino flare that may have occurred during the search period. Due to the focus on low-energy events in this search, we choose to examine the limit with respect to a soft-spectrum $E^{-3}$ generic flaring neutrino source with a Gaussian emission profile. An an upper limit is established through signal injections at a specified location. The background p-value distribution at the chosen location is constructed from several time scramblings of the data. Signal events are then injected with some Poisson mean value that is increased until the recovered p-values from the injections exceeds that of the median background p-value 90$\%$ of the time. This Poisson mean number of signal events is then taken as an event upper limit for the analysis method.
+
+The upper limit for this generic flaring source for several emission timescales is plotted in Figure \ref{fig:GenericE3Limit}. The limit begins to rise precipitously at longer timescales as the rate of nearby background events becomes non-negligible. A limit on the time-integrated flux (GeV$^{-1} \cdot$ cm$^{-2}$) is plotted as well. This limit is obtained by folding the source spectrum with the effective area of the event selection and normalizing the flux so that the number of events produced in the detector corresponds to the calculated Poisson mean event upper limit.
 %\begin{table}[h]
 %\begin{center}
 %\begin{tabular}{ccccccc}
@@ -121,15 +131,6 @@ Applying the described analysis method on the unscrambled dataset yields the sky
 %\caption[Best-fit signal parameters]{Best-fit values for flare location, %duration, strength and time.\label{tab:best_fit_flare}}
 %\end{center}
 %\end{table}
-
-%We obtain an event upper limit for a generic neutrino flare through the same method detailed in \cite{}. 
-\begin{figure}[ht]
-  \begin{center}
-    \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/RealResultSkyMap.png}
-  \end{center}
-  \caption[Results Sky Map]{Sky map of pre-trials p-values for best fit flares per bin. The black circle identifies the location of the most significant flare found at RA = 268.75$^\circ$ and Declination = 54.25$^\circ$.}
-  \label{fig:RealSkyMap}
-\end{figure}
 
 \begin{figure}[ht]
   \begin{center}
