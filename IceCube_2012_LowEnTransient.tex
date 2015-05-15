@@ -141,7 +141,20 @@ The upper limit for this generic flaring source for several emission timescales 
 \end{figure}
 
 \subsection{Choked GRB Limits}
-This null result can also be used to construct limits on specific neutrino emission models such as the model for choked GRB emission by \cite{2004PhRvL..93r1101R} and \cite{2005PhRvL..95f1103A} mentioned previously in the introduction.
+This null result can also be used to construct limits on specific neutrino emission models such as the model for choked GRB emission by \cite{2004PhRvL..93r1101R} and \cite{2005PhRvL..95f1103A} mentioned previously in the introduction. Unlike the hard spectra sources (E$^{-2}$) that are the typical target in IceCube searches, the neutrino flux for choked GRBs is predicted to be much softer. The spectral shape can be modeled via a doubly broken power law with spectral breaks occurring as hadronic ($E_{nu^{(1)}}$) and radiative ($E_{nu^{(2)}}$) cooling mechanisms become efficient respectively (see Eq. \ref{eq:chkgrb_spec}). The fluence $F_\nu$ at Earth is given by Eq. \ref{eq:nuflu} and depends upon the pion (kaon) multiplicity $<n>$, neutrino production branching ratio for pions (kaons) $B_{\pi(K)}$, minimum and maximum proton energies ($E_{p,min}', E_{p,max}'$), kinetic energy of the jet $E_j$, bulk Lorentz factor $\Gamma_b$, and lastly the distance to the source $D$.
+\begin{equation}\label{eq:chkgrb_spec}
+\frac{d\Phi_\nu}{dE}=F_\nu\left\{\begin{array}{cc}
+E^{-2} & E > E_{\nu}^{(1)} \\ 
+E_{\nu}^{(1)}E^{-3} & E_{\nu}^{(1)}< E < E_{\nu}^{(2)} \\ 
+E_{\nu}^{(1)}E_{\nu}^{(2)}E^{-4} & E_{\nu}^{(2)}< E < E_{max}
+\end{array}\right.
+\end{equation}
+\begin{equation}\label{eq:nuflu}
+F_{\nu} = \frac{<n>_{\pi(K)}B_{\pi(K)}}{8} \cdot \frac{E_j \Gamma_b^2}{2 \pi D^2 \textrm{ln}(E_{p,max}'/ E_{p,min}')}
+\end{equation}
+
+
+
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/RateLimit_2DHisto_wContours_SysAdj.png}
