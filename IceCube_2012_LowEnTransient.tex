@@ -119,7 +119,7 @@ Applying the described analysis method on the unscrambled dataset yields the sky
 \end{figure}
 Given this null result, we can set an upper limit on the neutrino flux of any possible unobserved neutrino flare that may have occurred during the search period. Due to the focus on low-energy events in this search, we choose to examine the limit with respect to a soft-spectrum $E^{-3}$ generic flaring neutrino source with a Gaussian emission profile. An an upper limit is established through signal injections at a specified location. The background p-value distribution at the chosen location is constructed from several time scramblings of the data. Signal events are then injected with some Poisson mean value that is increased until the recovered p-values from the injections exceeds that of the median background p-value 90$\%$ of the time. This Poisson mean number of signal events is then taken as an event upper limit for the analysis method.
 
-The upper limit for this generic flaring source for several emission timescales is plotted in Figure \ref{fig:GenericE3Limit}. The limit begins to rise precipitously at longer timescales as the rate of nearby background events becomes non-negligible. A limit on the time-integrated flux (GeV$^{-1} \cdot$ cm$^{-2}$) is plotted as well. This limit is obtained by folding the source spectrum with the effective area of the event selection and normalizing the flux so that the number of events produced in the detector corresponds to the calculated Poisson mean event upper limit.
+The upper limit for this generic flaring source for several emission timescales and choices of declination is plotted in Figure \ref{fig:GenericE3Limit}. The limit begins to rise precipitously at longer timescales as the rate of coincidental nearby background events becomes non-negligible. A limit on the time-integrated flux (GeV$^{-1} \cdot$ cm$^{-2}$) is plotted as well. This limit is obtained by folding the source spectrum with the effective area of the event selection and normalizing the flux so that the number of events produced in the detector corresponds to the calculated Poisson mean event upper limit. 
 %\begin{table}[h]
 %\begin{center}
 %\begin{tabular}{ccccccc}
@@ -141,7 +141,7 @@ The upper limit for this generic flaring source for several emission timescales 
 \end{figure}
 
 \subsection{Choked GRB Limits}
-This null result can also be used to construct limits on specific neutrino emission models such as the model for choked GRB emission by \cite{2004PhRvL..93r1101R} and \cite{2005PhRvL..95f1103A} mentioned previously in the introduction. Unlike the hard spectra sources (E$^{-2}$) that are the typical target in IceCube searches, the neutrino flux for choked GRBs is predicted to be much softer. The spectral shape can be modeled via a doubly broken power law with spectral breaks occurring as hadronic ($E_{nu^{(1)}}$) and radiative ($E_{nu^{(2)}}$) cooling mechanisms become efficient respectively (see Eq. \ref{eq:chkgrb_spec}). The fluence $F_\nu$ at Earth is given by Eq. \ref{eq:nuflu} and depends upon the pion (kaon) multiplicity $<n>$, neutrino production branching ratio for pions (kaons) $B_{\pi(K)}$, minimum and maximum proton energies ($E_{p,min}', E_{p,max}'$), kinetic energy of the jet $E_j$, bulk Lorentz factor $\Gamma_b$, and lastly the distance to the source $D$.
+This null result can also be used to construct limits on specific neutrino emission models such as the model for choked GRB emission by \cite{2004PhRvL..93r1101R} and \cite{2005PhRvL..95f1103A} mentioned previously (this will hereafter be referred to as RMW/AB). Unlike the hard spectra sources (e.g, E$^{-2}$) that are the typical target in IceCube searches, the neutrino flux for choked GRBs is predicted to be much softer. The spectral shape can be modeled via a doubly broken power law with spectral breaks occurring as hadronic ($E_{\nu^{(1)}}$) and radiative ($E_{\nu^{(2)}}$) cooling mechanisms become efficient respectively (see Eq. \ref{eq:chkgrb_spec}). 
 \begin{equation}\label{eq:chkgrb_spec}
 \frac{d\Phi_\nu}{dE}=F_\nu\left\{\begin{array}{cc}
 E^{-2} & E > E_{\nu}^{(1)} \\ 
@@ -152,19 +152,49 @@ E_{\nu}^{(1)}E_{\nu}^{(2)}E^{-4} & E_{\nu}^{(2)}< E < E_{max}
 \begin{equation}\label{eq:nuflu}
 F_{\nu} = \frac{<n>_{\pi(K)}B_{\pi(K)}}{8} \cdot \frac{E_j \Gamma_b^2}{2 \pi D^2 \textrm{ln}(E_{p,max}'/ E_{p,min}')}
 \end{equation}
+The fluence $F_\nu$ at Earth is given by Eq. \ref{eq:nuflu} and depends upon the pion (kaon) multiplicity $<n>$, neutrino production branching ratio for pions (kaons) $B_{\pi(K)}$, minimum and maximum proton energies ($E_{p,min}', E_{p,max}'$), kinetic energy of the jet $E_j$, bulk Lorentz factor $\Gamma_b$, and lastly the distance to the source $D$. Equations \ref{eq:chkgrb_spec} and \ref{eq:nuflu} reveal that the normalization and spectral shape of the neutrino flux at Earth is highly dependent on the kinetic energy of the jet $E_j$ and the bulk lorentz factor $\Gamma_b$. We therefore choose to examine the predicted neutrino fluence in $E_j$-$\Gamma_b$ phase space. 
 
+To ascertain which values of these parameters produce a fluence detectable through our search method, an event upper limit is first determined via the injection of signal events following a spectrum set by the value of $E_j$ and $\Gamma_b$ (the same process used to generate an event upper limit for the generic $E^{-3}$ scenario). This event upper limit then is then combined with the effective area of the event selection to determine the neutrino fluence necessary for detection. For a given choice of $E_j$ and $\Gamma_b$ this sets a limit on the distance at which the source would still be visible to the search; we define this distance $D_{vis}$ as the visibility distance.
 
+When combined with the area of sky examined by the search $\Omega_{A}$, this visibility distance in turn defines a parameter dependent volume $V_A$ over which the search method monitors where $V_A=\frac{1}{3}\Omega_{A}D_{vis}^{3}$. The monitored volume $V_A$ corresponds to the volume in which a choked GRB event would have been detected by the search method with 90$\%$ confidence (assuming jet alignment). If the observation period of the search is considered, this monitored volume can be converted into a limit on the volumetric rate of choked GRB events as a function of $E_j$ and $\Gamma_b$. This requires two assumptions to be made however: 1) The jets of any choked GRB event in this volume are aligned with Earth and 2) The nearby universe is homogeneous with respect to CC SNe production.
+\begin{equation}\label{eq:ratelimit}
+R = \left(\frac{U.L.(0|\mu)}{\tau \cdot V_A}\right)
+\end{equation}
 
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/RateLimit_2DHisto_wContours_SysAdj.png}
   \end{center}
-  \caption[Choked GRB Volumetric Rate Limit]{[add caption]}
+  \caption[Choked GRB Volumetric Rate Limit]{Histogram of the rate limit on choked GRBs in the nearby universe. The bin for canonical values of the neutrino emission model is marked by the star. The dashed line contour gives the rate of core-collapse supernovae within 10 Mpc as measured by \cite{2011PhRvD..83l3008K}. The dot-dashed line is the volumetric rate extracted from a large survey of SNe in the local universe \citep{2011MNRAS.412.1419L}}
   \label{fig:VolumetricRateLimit}
 \end{figure}
+
+\section{Conclusions}
+The search described in this paper over a newly developed data set consisting of 30-300 GeV muon neutrinos revealed no evidence for transient astrophysical neutrino sources.
+
+
+
 \acknowledgments
-
-
+We acknowledge support from the following agencies: U.S. National Science 
+Foundation-Office of Polar Programs, U.S. National Science Foundation-Physics
+Division, University of Wisconsin Alumni Research Foundation, the Grid
+Laboratory Of Wisconsin (GLOW) grid infrastructure at the University of
+Wisconsin - Madison, the Open Science Grid (OSG) grid infrastructure; U.S.
+Department of Energy, and National Energy Research Scientific Computing Center, 
+the Louisiana Optical Network Initiative (LONI) grid computing resources;
+Natural Sciences and Engineering Research Council of Canada, WestGrid and
+Compute/Calcul Canada; Swedish Research Council, Swedish Polar Research
+Secretariat, Swedish National Infrastructure for Comput ing (SNIC), and Knut
+and Alice Wallenberg Foundation, Sweden; German Ministry for Education and
+Research (BMBF), Deutsche Forschungsgemeinschaft (DFG), Helmholtz Alliance for
+Astroparticle Physics (HAP), Research Department of Plasmas with Complex 
+Interactions (Bochum), Germany; Fund for Scientific Research (FNRS-FWO), FWO
+Odysseus programme, Flanders Institute to encourage scientific and
+technological research in industry (IWT), Belgian Federal Science Policy Office
+(Belspo); University of Oxford, United Kingdom; Marsden Fund, New Zealand;
+Australian Research Council; Japan Society for Promotion of Science (JSPS); the
+Swiss National Science Foundation (SNSF), Switzerland; National Research
+Foundation of Korea (NRF); Danish National Research Foundation, Denmark (DNRF). 
 
 
 \bibliography{IceCube_2012_LowEnTransient}{}
