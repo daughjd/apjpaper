@@ -53,17 +53,21 @@ A promising potential source for this study is a special class of core-collapse 
 
 We present the results of a search for transient neutrino emission on a set of low-energy neutrino event data collected from May 15th, 2012 to April 30th, 2013. The data selection methods used to acquire this unique event sample will be detailed in Sec. 2. Analysis methods and search techniques are discussed in Sec. 3. Lastly, the results of the search are given in Sec. 4 in addition to how these results may be interpreted within the context of generic neutrino flares as well as choked GRBs.
 \section{Event Selection}
-The IceCube detector is primarily designed for the detection of high-energy ($E_{\nu} \geq 1$ TeV) muon neutrinos originating from the Northern sky. However, the addition of the DeepCore sub-array in combination with veto techniques allow for significant lowering of the detection threshold energy. The veto method, which is described in detail in \cite{2012APh....35..615A}, features prominently in the isolation of the event sample used in this search. Several cuts related to event topology and directional reconstruction are also used to further separate background events from potential signal. Finally, a multi-variate cut developed through machine learning techniques is used to generate the final event sample used in the search.
+The IceCube detector is primarily designed for the detection of high-energy ($E_{\nu} \geq 1$ TeV) muon neutrinos originating from the Northern sky. However, the addition of the DeepCore sub-array in combination with veto techniques allow for significant lowering of the detection threshold energy. The veto method, which is described in detail in \cite{2012APh....35..615A}, features prominently in the isolation of the event sample used in this search. Several cuts related to event topology and directional reconstruction are also used to further separate background events from potential signal. Finally, a multi-variate cut developed through machine learning is used to generate the final event sample used in the search.
 
+The selection process begins with the fulfillment of one of three trigger conditions that prompt readout of the detector data. Each of these triggers requires some number of DOMs to exhibit hard local coincidence within a defined time window. To satisfy the hard local coincidence (HLC) condition, two or more neighboring (or next-neighboring) DOMs on the same string must register photon hits within a $\pm1$ $\mu$s window.
+
+The DeepCore filter is designed to eliminate down-going cosmic ray muons that produce light in the detector outside a defined volume encompassing DeepCore and the central IceCube detector.
 \subsection{Veto and Topology Cuts}
-The selection process begins with the output of the DeepCore filter, a data filter designed to eliminate down-going cosmic ray muons that produce light in the detector outside a defined volume encompassing DeepCore and the central IceCube detector. 
+The output of the DeepCore filter is subjected to several cuts that make use of veto region hit information, event topology, and event reconstructions to reduce the volume of cosmic ray background events as well as eliminate events that are the result of noise-induced triggering.
+ 
 \subsection{Boosted Decision Tree}
-
+After the application of the described veto and topology cuts, the ability to separate muon background from potential neutrino signal events via simple cuts is drastically reduced. We therefore make use of a boosted decision tree (BDT) in order to isolate a final sample with acceptable neutrino purity ($\geq 90\%$). At this level of event selection, the experimental data still predominantly consists of background cosmic ray muons allowing the actual data to serve as a background training sample for the BDT.
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=0.5\textwidth,keepaspectratio]{plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_NchCut_G1460.png}
   \end{center}
-  \caption[Low-Energy Event Branch BDT Score Distribution]{[add caption]}
+  \caption[Low-Energy Event Branch BDT Score Distribution]{Still unsure of what BDT related plot to show.}
   \label{fig:LESBDTDistribution}
 \end{figure}
 
@@ -134,7 +138,7 @@ The upper limit for this generic flaring source for several emission timescales 
 
 \begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/LowEnTransient_NEventSensitivity_E3_G1460_Dec16_DoubleY2.png}
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png}
   \end{center}
   \caption[Time-integrated Flux Limit for E$^{-3}$ Source]{Upper limit (90$\%$ C.L.) for a generic E$^{-3}$ transient source as a function of flare width $\sigma_w$.The limit is given in mean number of events (left axis) as well as in time-integrated flux at a reference energy of 100 GeV (right axis).}
   \label{fig:GenericE3Limit}
@@ -163,7 +167,7 @@ R = \left(\frac{U.L.(0|\mu)}{\tau \cdot V_A}\right)
 where $\tau$ is the livetime of the search, $V_A$ is the monitored volume previously defined, and $U.L.(0|\mu)$ is the null observation upper limit on the number of choked GRBs that occurred in our monitored volume with background expectation of $\mu$. Many iterations of the search performed with only background data determined the probability of a background false positive rate to be very small ($\leq 10^{-3}$). We therefore take $\mu\approx0$ leading to a Neyman upper limit of 2.3 from the null observation.
 \begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/RateLimit_2DHisto_wContours_SysAdj.png}
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{plots/RateLimit_2DHisto_wContours_SysAdj.png}
   \end{center}
   \caption[Choked GRB Volumetric Rate Limit]{Histogram of the rate limit on choked GRBs in the nearby universe. The bin for canonical values of the neutrino emission model is marked by the star. The dashed line contour gives the rate of core-collapse supernovae within 10 Mpc as measured by \cite{2011PhRvD..83l3008K}. The dot-dashed line is the volumetric rate extracted from a large survey of SNe in the local universe \citep{2011MNRAS.412.1419L}}
   \label{fig:VolumetricRateLimit}
@@ -171,7 +175,7 @@ where $\tau$ is the livetime of the search, $V_A$ is the monitored volume previo
 
 The volumetric rate limit for a range of values of jet kinetic energy and bulk Lorentz factor is plotted in Figure \ref{fig:VolumetricRateLimit}. In addition to the calculated volumetric rate limits, two separate measurements of the nearby CC SNe are also plotted to provide context to the limits. Choked GRB events harboring particularly energetic jet parameters should be visible to the search method. If one compares the limits for the canonical model parameter values ($\Gamma_b = 3$, $E_j = 10^{51.5}$ erg) to the CC SNe rates, it is clear that the search method is not very sensitive to large regions of the model parameter space in its current state. The capabilities of future iterations of this type of search should be considerably improved as both the event selection and analysis methods are further refined.	
 \section{Conclusions}
-The search described in this paper over a newly developed data set consisting of 30-300 GeV muon neutrinos revealed no evidence for transient astrophysical neutrino sources.
+The search described in this paper examined a newly developed data set consisting of 30-300 GeV muon neutrinos. No evidence for transient astrophysical neutrino sources was found in the data leading to the construction of upper limits on the neutrino fluence of potential sources within the observation period. These limits serve to complement existing IceCube searches by examining a relatively unexplored energy range. Furthermore, the sensitivity of this method will only improve as the event selection and search techniques are further optimized for muon neutrino events at sub-TeV energies.
 
 
 

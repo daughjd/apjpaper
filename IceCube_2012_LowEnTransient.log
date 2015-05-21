@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  20 MAY 2015 16:54
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  21 MAY 2015 17:14
 entering extended mode
  %&-line parsing enabled.
 **IceCube_2012_LowEnTransient.tex
@@ -168,54 +168,52 @@ File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 
 ] [3
 
-] [4]
+] [4] [5]
 <plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_NchCut_G1460.png
-, id=24, 722.7pt x 578.16pt>
+, id=27, 722.7pt x 578.16pt>
 File: plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_NchCut_G146
 0.png Graphic file (type png)
 
 <use plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_NchCut_G1460
-.png> [5] [6 <./plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_N
-chCut_G1460.png>] [7] [8]
-<plots/RealResultSkyMap.png, id=41, 1092.7224pt x 731.3724pt>
+.png> [6] [7 <./plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_N
+chCut_G1460.png>] [8] [9]
+<plots/RealResultSkyMap.png, id=44, 1092.7224pt x 731.3724pt>
 File: plots/RealResultSkyMap.png Graphic file (type png)
 
-<use plots/RealResultSkyMap.png> [9] [10 <./plots/RealResultSkyMap.png>]
-<plots/LowEnTransient_NEventSensitivity_E3_G1460_Dec16_DoubleY2.png, id=49, 722
-.7pt x 578.16pt>
-File: plots/LowEnTransient_NEventSensitivity_E3_G1460_Dec16_DoubleY2.png Graphi
-c file (type png)
-
-<use plots/LowEnTransient_NEventSensitivity_E3_G1460_Dec16_DoubleY2.png>
-[11]
-<plots/RateLimit_2DHisto_wContours_SysAdj.png, id=54, 578.16pt x 433.62pt>
+<use plots/RealResultSkyMap.png> [10]
+<plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png, id=48, 722.7pt x 578
+.16pt>
+File: plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png Graphic file (ty
+pe png)
+ <use plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png> [11 <./plots/Re
+alResultSkyMap.png>] [12 <./plots/LowEnTransient_UpperLimit_E3_G1460_Avg_Double
+Y.png>] [13]
+<plots/RateLimit_2DHisto_wContours_SysAdj.png, id=62, 578.16pt x 433.62pt>
 File: plots/RateLimit_2DHisto_wContours_SysAdj.png Graphic file (type png)
 
-<use plots/RateLimit_2DHisto_wContours_SysAdj.png> [12] [13]
-(./IceCube_2012_LowEnTransient.bbl [14] [15 <./plots/LowEnTransient_NEventSensi
-tivity_E3_G1460_Dec16_DoubleY2.png>] [16 <./plots/RateLimit_2DHisto_wContours_S
-ysAdj.png>] [17
+<use plots/RateLimit_2DHisto_wContours_SysAdj.png> [14] [15 <./plots/RateLimit_
+2DHisto_wContours_SysAdj.png>] (./IceCube_2012_LowEnTransient.bbl [16] [17
 
-]) [18] (./IceCube_2012_LowEnTransient.aux) ) 
+])
+[18] (./IceCube_2012_LowEnTransient.aux) ) 
 Here is how much of TeX's memory you used:
  1829 strings out of 256216
- 21760 string characters out of 1917072
+ 21710 string characters out of 1917072
  73844 words of memory out of 1500000
  5114 multiletter control sequences out of 10000+200000
  10791 words of font info for 42 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  32i,7n,26p,1477b,253s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/blue
-sky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb></usr/shar
-e/texmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky
-/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/t
-exmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
-cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/f
-onts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.
-pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/
-type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pf
-b>
-Output written on IceCube_2012_LowEnTransient.pdf (18 pages, 532754 bytes).
+</usr/share/texmf/fonts/type1/bluesky
+/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb></usr/share/t
+exmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm
+/cmmi12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/texm
+f/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr
+12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/font
+s/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb
+></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb>
+Output written on IceCube_2012_LowEnTransient.pdf (18 pages, 523441 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
