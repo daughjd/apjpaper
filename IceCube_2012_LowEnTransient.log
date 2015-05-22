@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  21 MAY 2015 17:14
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  22 MAY 2015 14:01
 entering extended mode
  %&-line parsing enabled.
 **IceCube_2012_LowEnTransient.tex
@@ -168,42 +168,42 @@ File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 
 ] [3
 
-] [4] [5]
+] [4] [5] [6]
 <plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_NchCut_G1460.png
-, id=27, 722.7pt x 578.16pt>
+, id=30, 722.7pt x 578.16pt>
 File: plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_NchCut_G146
 0.png Graphic file (type png)
 
 <use plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_NchCut_G1460
-.png> [6] [7 <./plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_N
-chCut_G1460.png>] [8] [9]
-<plots/RealResultSkyMap.png, id=44, 1092.7224pt x 731.3724pt>
+.png> [7] [8 <./plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_N
+chCut_G1460.png>] [9] [10] [11]
+<plots/RealResultSkyMap.png, id=50, 1092.7224pt x 731.3724pt>
 File: plots/RealResultSkyMap.png Graphic file (type png)
 
-<use plots/RealResultSkyMap.png> [10]
-<plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png, id=48, 722.7pt x 578
+<use plots/RealResultSkyMap.png> [12]
+<plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png, id=54, 722.7pt x 578
 .16pt>
 File: plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png Graphic file (ty
 pe png)
- <use plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png> [11 <./plots/Re
-alResultSkyMap.png>] [12 <./plots/LowEnTransient_UpperLimit_E3_G1460_Avg_Double
-Y.png>] [13]
-<plots/RateLimit_2DHisto_wContours_SysAdj.png, id=62, 578.16pt x 433.62pt>
+ <use plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png> [13 <./plots/Re
+alResultSkyMap.png>] [14 <./plots/LowEnTransient_UpperLimit_E3_G1460_Avg_Double
+Y.png>] [15]
+<plots/RateLimit_2DHisto_wContours_SysAdj.png, id=68, 578.16pt x 433.62pt>
 File: plots/RateLimit_2DHisto_wContours_SysAdj.png Graphic file (type png)
 
-<use plots/RateLimit_2DHisto_wContours_SysAdj.png> [14] [15 <./plots/RateLimit_
-2DHisto_wContours_SysAdj.png>] (./IceCube_2012_LowEnTransient.bbl [16] [17
+<use plots/RateLimit_2DHisto_wContours_SysAdj.png> [16] [17 <./plots/RateLimit_
+2DHisto_wContours_SysAdj.png>] (./IceCube_2012_LowEnTransient.bbl [18] [19
 
 ])
-[18] (./IceCube_2012_LowEnTransient.aux) ) 
+[20] (./IceCube_2012_LowEnTransient.aux) ) 
 Here is how much of TeX's memory you used:
  1829 strings out of 256216
  21710 string characters out of 1917072
- 73844 words of memory out of 1500000
+ 72844 words of memory out of 1500000
  5114 multiletter control sequences out of 10000+200000
  10791 words of font info for 42 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 32i,7n,26p,1477b,253s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 32i,7n,26p,1560b,253s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky
 /cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb></usr/share/t
 exmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm
@@ -213,9 +213,9 @@ f/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr
 s/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb
 ></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/typ
 e1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb>
-Output written on IceCube_2012_LowEnTransient.pdf (18 pages, 523441 bytes).
+Output written on IceCube_2012_LowEnTransient.pdf (20 pages, 528284 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 127 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
