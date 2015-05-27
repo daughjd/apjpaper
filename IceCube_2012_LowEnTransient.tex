@@ -62,12 +62,13 @@ Events satisfying these trigger conditions are then given to the DeepCore data f
 \subsection{Veto and Topology Cuts}
 Events belonging to both the LES and HES are subjected to several cuts that make use of veto region hit information, event topology, and event reconstructions to reduce the volume of cosmic ray background events as well as eliminate events that are the result of noise-induced triggering. The first of these cuts requires at least two DeepCore DOM hits within a tight 250 ns window to remove SMT3 events that are the result of spurious hits. An algorithm designed to search for track-like events is then used to eliminate noise-induced events that show little evidence of correlation in DOM hits. Additionally, a minimum on the number of DOMs registering light during the event is imposed to throw out events with too little information for proper reconstruction. The DeepCore filter algorithm is also reapplied using looser DOM hit cleanings to allow isolated DOM hits in the veto region to contribute to the calculation. Finally, the number of DOM hits that occur prior to the first hit inside the DeepCore detection volume is used as a cut parameter to eliminate less obvious cosmic ray muons.
 
-Event reconstructions are also used in the selection process to remove downgoing events from the sample. 
+The event reconstruction process begins with the application of a simple linear fit described in \cite{2014NIMPA.736..143A} to determine the position of a muon track that describes the observed DOM hit pattern. This linear reconstruction is then used as a seed for a likelihood-based reconstruction which uses a single-photoelectron (SPE) hypothesis to describe the probability of DOMs receiving light from the track given scattering in the ice (this algorithm is described in detail in \cite{2004NIMPA.524..169A}). Six iterations of the SPE likelihood reconstruction are performed to obtain a best-fit track for the event.
  
 \subsection{Boosted Decision Tree}
 After the application of the described veto and topology cuts, the ability to separate muon background from potential neutrino signal events via simple cuts is drastically reduced. We therefore make use of a boosted decision tree (BDT) in order to isolate a final sample with acceptable neutrino purity ($\geq 90\%$). At this level of event selection, the experimental data still predominantly consists of background cosmic ray muons allowing the actual data to serve as a background training sample for the BDT. Signal events found belonging to the LES or HES branches exhibit significant differences in distribution of input BDT parameters necessitating the construction of two separate BDTs. 
 
-The event parameters used for the LES tree include the location of the reconstructed event vertex, the number of `direct' DOM hits featuring a photon travel time residual between -25 and 150 ns with respect to the reconstructed muon track, the reduced log-likelihood of the MPE reconstruction, the average distance between DOM hits and the reconstructed track weighted by DOM photo-multiplier tube (PMT) charge, and the highest clustering of veto region PMT charge found by brute force reconstruction methods. The HES BDT makes use of the direct hits parameter, reduced log-likelihood of the MPE reconstruction, average charge-weighted DOM distance to track, and also the best fit track length using information from direct DOM hits. A simulated signal neutrino event sample weighted to a E$^{-2.5}$ (LES) or E$^{-2}$ (HES) spectrum is used for signal training. [reference pertinent figure showing something from BDTs]
+The event parameters used for the LES tree include the location of the reconstructed event vertex, the number of `direct' DOM hits featuring a photon travel time residual between -25 and 150 ns with respect to the reconstructed muon track, the reduced log-likelihood of the MPE reconstruction, the average distance between DOM hits and the reconstructed track weighted by DOM photo-multiplier tube (PMT) charge, and the highest clustering of veto region PMT charge found by brute force reconstruction methods. The HES BDT makes use of the direct hits parameter, reduced log-likelihood of the MPE reconstruction, average charge-weighted DOM distance to track, and also the best fit track length using information from direct DOM hits. A simulated signal neutrino event sample weighted to a E$^{-2.5}$ (LES) or E$^{-2}$ (HES) spectrum is used for signal training.
+[Post-BDT Cut Event Parameter Distribution Plot(s)]
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=0.5\textwidth,keepaspectratio]{plots/LES_BDTScoreDist_NormalizedRates_WC9255_And_H3AC9622_L6_NchCut_G1460.png}
@@ -131,24 +132,11 @@ Applying the described analysis method on the unscrambled dataset yields the sky
 Given this null result, we can set an upper limit on the neutrino flux of any possible unobserved neutrino flare that may have occurred during the search period. Due to the focus on low-energy events in this search, we choose to examine the limit with respect to a soft-spectrum $E^{-3}$ generic flaring neutrino source with a Gaussian emission profile. An an upper limit is established through signal injections at a specified location. The background p-value distribution at the chosen location is constructed from several time scramblings of the data. Signal events are then injected with some Poisson mean value that is increased until the recovered p-values from the injections exceeds that of the median background p-value 90$\%$ of the time. This Poisson mean number of signal events is then taken as an event upper limit for the analysis method.
 
 The upper limit for this generic flaring source for several emission timescales and choices of declination is plotted in Figure \ref{fig:GenericE3Limit}. The limit begins to rise precipitously at longer timescales as the rate of coincidental nearby background events becomes non-negligible. A limit on the time-integrated flux (GeV$^{-1} \cdot$ cm$^{-2}$) is plotted as well. This limit is obtained by folding the source spectrum with the effective area of the event selection and normalizing the flux so that the number of events produced in the detector corresponds to the calculated Poisson mean event upper limit. 
-%\begin{table}[h]
-%\begin{center}
-%\begin{tabular}{ccccccc}
-%  \toprule
-%R.A. &  Dec & $\hat{n}_s$ & $\hat{t}_0 [MJD]$ & $\hat{\sigma}_w [days]$ & p-value & p-value post-trial \\
-%\midrule
-%268.75$^{\circ}$ & 54.25$^{\circ}$ & 13.528 & 56107.8 & 5.89 & 4.1751 & 56$\%$\\
-%\end{tabular}
-%\caption[Best-fit signal parameters]{Best-fit values for flare location, %duration, strength and time.\label{tab:best_fit_flare}}
-%\end{center}
-%\end{table}
 
 \begin{figure}[ht]
-  \begin{center}
-    \includegraphics[width=0.8\textwidth,keepaspectratio]{plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png}
-  \end{center}
-  \caption[Time-integrated Flux Limit for E$^{-3}$ Source]{Upper limit (90$\%$ C.L.) for a generic E$^{-3}$ transient source as a function of flare width $\sigma_w$.The limit is given in mean number of events (left axis) as well as in time-integrated flux at a reference energy of 100 GeV (right axis).}
-  \label{fig:GenericE3Limit}
+\plottwo{plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png}{plots/LowEnTransient_FluxSensitivity_E3_G1460_MultiDec.png}
+\caption[Time-integrated Flux Limit for E$^{-3}$ Source]{Upper limit (90$\%$ C.L.) for a generic E$^{-3}$ transient source as a function of flare width $\sigma_w$.The limit is given in mean number of events (left axis) as well as in time-integrated flux at a reference energy of 100 GeV (right axis).}
+\label{fig:GenericE3Limit}
 \end{figure}
 
 \subsection{Choked GRB Limits}

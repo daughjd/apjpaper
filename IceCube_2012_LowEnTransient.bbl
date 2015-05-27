@@ -1,10 +1,17 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
-\bibitem[{{Aartsen} {et~al.}(2014){Aartsen}, {Ackermann}, {Adams}, {Aguilar},
-  {Ahlers}, {Ahrens}, {Altmann}, {Anderson}, {Arguelles}, {Arlen}, \&
-  et~al.}]{2014ApJ...796..109A}
-{Aartsen}, M.~G., {Ackermann}, M., {Adams}, J., {et~al.} 2014, \apj, 796, 109
+\bibitem[{{Aartsen} {et~al.}(2014{\natexlab{a}}){Aartsen}, {Abbasi}, {Abdou},
+  {Ackermann}, {Adams}, {Aguilar}, {Ahlers}, {Altmann}, {Auffenberg}, {Bai}, \&
+  et~al.}]{2014NIMPA.736..143A}
+{Aartsen}, M.~G., {Abbasi}, R., {Abdou}, Y., {et~al.} 2014{\natexlab{a}},
+  Nuclear Instruments and Methods in Physics Research A, 736, 143
+
+\bibitem[{{Aartsen} {et~al.}(2014{\natexlab{b}}){Aartsen}, {Ackermann},
+  {Adams}, {Aguilar}, {Ahlers}, {Ahrens}, {Altmann}, {Anderson}, {Arguelles},
+  {Arlen}, \& et~al.}]{2014ApJ...796..109A}
+{Aartsen}, M.~G., {Ackermann}, M., {Adams}, J., {et~al.} 2014{\natexlab{b}},
+  \apj, 796, 109
 
 \bibitem[{{Aartsen} {et~al.}(2015){Aartsen}, {Ackermann}, {Adams}, {Aguilar},
   {Ahlers}, {Ahrens}, {Altmann}, {Anderson}, {Arguelles}, {Arlen}, \&
@@ -16,6 +23,30 @@
   et~al.}]{2012APh....35..615A}
 {Abbasi}, R., {Abdou}, Y., {Abu-Zayyad}, T., {et~al.} 2012, Astroparticle
   Physics, 35, 615
+
+\bibitem[{{Ahrens} {et~al.}(2004){Ahrens}, {Bai}, {Bay}, {Barwick}, {Becka},
+  {Becker}, {Becker}, {Bernardini}, {Bertrand}, {Biron}, {Boersma},
+  {B{\"o}ser}, {Botner}, {Bouchta}, {Bouhali}, {Burgess}, {Carius},
+  {Castermans}, {Chirkin}, {Collin}, {Conrad}, {Cooley}, {Cowen}, {Davour}, {de
+  Clercq}, {De Young}, {Desiati}, {Dewulf}, {Ekstr{\"o}m}, {Feser}, {Gaug},
+  {Gaisser}, {Ganugapati}, {Geenen}, {Gerhardt}, {Gro{\ss}}, {Goldschmidt},
+  {Hallgren}, {Halzen}, {Hanson}, {Hardtke}, {Harenberg}, {Hauschildt},
+  {Helbing}, {Hellwig}, {Herquet}, {Hill}, {Hubert}, {Hughey}, {Hulth},
+  {Hultqvist}, {Hundertmark}, {Jacobsen}, {Karle}, {Kestel}, {K{\"o}pke},
+  {Kowalski}, {Kuehn}, {Lamoureux}, {Leich}, {Leuthold}, {Lindahl},
+  {Liubarsky}, {Madsen}, {Marciniewski}, {Matis}, {McParland}, {Messarius},
+  {Minaeva}, {Mio{\v c}inovi{\'c}}, {Mock}, {Morse}, {M{\"u}nich}, {Nam},
+  {Nahnhauer}, {Neunh{\"o}ffer}, {Niessen}, {Nygren}, {{\"O}gelman},
+  {Olbrechts}, {P{\'e}rez de Los Heros}, {Pohl}, {Porrata}, {Price},
+  {Przybylski}, {Rawlins}, {Resconi}, {Rhode}, {Ribordy}, {Richter},
+  {Rodr{\'{\i}}guez Martino}, {Ross}, {Sander}, {Schinarakis}, {Schlenstedt},
+  {Schmidt}, {Schneider}, {Schwarz}, {Silvestri}, {Solarz}, {Spiczak},
+  {Spiering}, {Stamatikos}, {Steele}, {Steffen}, {Stokstad}, {Sulanke},
+  {Streicher}, {Taboada}, {Thollander}, {Tilav}, {Wagner}, {Walck}, {Wang},
+  {Wiebusch}, {Wiedemann}, {Wischnewski}, {Wissing}, {Woschnagg}, \&
+  {Yodh}}]{2004NIMPA.524..169A}
+{Ahrens}, J., {Bai}, X., {Bay}, R., {et~al.} 2004, Nuclear Instruments and
+  Methods in Physics Research A, 524, 169
 
 \bibitem[{{Ando} \& {Beacom}(2005)}]{2005PhRvL..95f1103A}
 {Ando}, S., \& {Beacom}, J.~F. 2005, Physical Review Letters, 95, 061103

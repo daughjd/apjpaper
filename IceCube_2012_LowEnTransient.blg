@@ -3,44 +3,44 @@ The top-level auxiliary file: IceCube_2012_LowEnTransient.aux
 The style file: apj.bst
 Database file #1: IceCube_2012_LowEnTransient.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 17 entries,
+You've used 19 entries,
             3085 wiz_defined-function locations,
-            785 strings with 8329 characters,
-and the built_in function-call counts, 8172 in all, are:
-= -- 684
-> -- 564
+            802 strings with 11178 characters,
+and the built_in function-call counts, 10667 in all, are:
+= -- 760
+> -- 991
 < -- 7
-+ -- 189
-- -- 203
-* -- 690
-:= -- 1536
-add.period$ -- 17
-call.type$ -- 17
-change.case$ -- 110
-chr.to.int$ -- 17
-cite$ -- 17
-duplicate$ -- 318
-empty$ -- 495
-format.name$ -- 227
-if$ -- 1633
-int.to.chr$ -- 1
++ -- 331
+- -- 348
+* -- 1018
+:= -- 2075
+add.period$ -- 19
+call.type$ -- 19
+change.case$ -- 120
+chr.to.int$ -- 18
+cite$ -- 19
+duplicate$ -- 356
+empty$ -- 551
+format.name$ -- 374
+if$ -- 2059
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 55
-num.names$ -- 68
-pop$ -- 116
+missing$ -- 19
+newline$ -- 61
+num.names$ -- 76
+pop$ -- 128
 preamble$ -- 1
-purify$ -- 110
+purify$ -- 120
 quote$ -- 0
-skip$ -- 285
+skip$ -- 312
 stack$ -- 0
-substring$ -- 406
-swap$ -- 0
+substring$ -- 448
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 153
+type$ -- 171
 warning$ -- 0
-while$ -- 63
+while$ -- 69
 width$ -- 0
-write$ -- 173
+write$ -- 193
