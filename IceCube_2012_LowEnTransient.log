@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  2 JUL 2015 16:42
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  20 JUL 2015 15:40
 entering extended mode
  %&-line parsing enabled.
 **IceCube_2012_LowEnTransient.tex
@@ -167,87 +167,94 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 
 AAS manuscript substyle, v5.2 <12 Dec 2003>.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 26.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 392.
 (/usr/share/texmf/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+LaTeX Font Info:    Try loading font information for U+msa on input line 392.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 392.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 1314) in paragraph at lines 403--403
+[][]\OT1/cmr/m/n/12 Dept. of Physics and As-tron-omy, Uni-ver-sity of Can-ter-b
+ury, Pri-vate Bag 4800,
+ []
 
-] [3
+[3] [4] [5] [6] [7
 
-] [4] [5] [6] [7] [8] [9]
+] [8
+
+] [9] [10] [11] [12] [13] [14]
 Plottwo included the files plots/FinalSample_NchDistribution_Rates_NormedNugen.
 png plots/FinalSample_SplineMPEZenith_Rates_NormedNugen.png
 
-<plots/FinalSample_NchDistribution_Rates_NormedNugen.png, id=41, 578.16pt x 433
+<plots/FinalSample_NchDistribution_Rates_NormedNugen.png, id=57, 578.16pt x 433
 .62pt>
 File: plots/FinalSample_NchDistribution_Rates_NormedNugen.png Graphic file (typ
 e png)
  <use plots/FinalSample_NchDistribution_Rates_NormedNugen.png>
-<plots/FinalSample_SplineMPEZenith_Rates_NormedNugen.png, id=42, 578.16pt x 433
+<plots/FinalSample_SplineMPEZenith_Rates_NormedNugen.png, id=58, 578.16pt x 433
 .62pt>
 File: plots/FinalSample_SplineMPEZenith_Rates_NormedNugen.png Graphic file (typ
 e png)
- <use plots/FinalSample_SplineMPEZenith_Rates_NormedNugen.png> [10 <./plots/Fin
+ <use plots/FinalSample_SplineMPEZenith_Rates_NormedNugen.png> [15 <./plots/Fin
 alSample_NchDistribution_Rates_NormedNugen.png> <./plots/FinalSample_SplineMPEZ
 enith_Rates_NormedNugen.png>]
 Plottwo included the files plots/PaperEffArea_ANTARES_StdPS.png plots/CombinedR
 esolution_CombinedSimulationFinalSample.png
-<plots/PaperEffArea_ANTARES_StdPS.png, id=48, 578.16pt x 433.62pt>
+<plots/PaperEffArea_ANTARES_StdPS.png, id=64, 578.16pt x 433.62pt>
 File: plots/PaperEffArea_ANTARES_StdPS.png Graphic file (type png)
 
 <use plots/PaperEffArea_ANTARES_StdPS.png>
-<plots/CombinedResolution_CombinedSimulationFinalSample.png, id=49, 578.16pt x 
+<plots/CombinedResolution_CombinedSimulationFinalSample.png, id=65, 578.16pt x 
 433.62pt>
 File: plots/CombinedResolution_CombinedSimulationFinalSample.png Graphic file (
 type png)
  <use plots/CombinedResolution_CombinedSimulationFinalSample.png>
-[11] [12 <./plots/PaperEffArea_ANTARES_StdPS.png> <./plots/CombinedResolution_C
-ombinedSimulationFinalSample.png>] [13] [14]
-<plots/RealResultSkyMap.png, id=67, 1092.7224pt x 731.3724pt>
+[16] [17 <./plots/PaperEffArea_ANTARES_StdPS.png> <./plots/CombinedResolution_C
+ombinedSimulationFinalSample.png>] [18] [19]
+<plots/RealResultSkyMap.png, id=83, 1092.7224pt x 731.3724pt>
 File: plots/RealResultSkyMap.png Graphic file (type png)
 
-<use plots/RealResultSkyMap.png> [15] [16 <./plots/RealResultSkyMap.png>]
+<use plots/RealResultSkyMap.png> [20] [21 <./plots/RealResultSkyMap.png>]
 Plottwo included the files plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY
 .png plots/LowEnTransient_FluxSensitivity_E3_G1460_MultiDec.png
 
-<plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png, id=75, 578.16pt x 43
+<plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png, id=91, 578.16pt x 43
 3.62pt>
 File: plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png Graphic file (ty
 pe png)
  <use plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png>
-<plots/LowEnTransient_FluxSensitivity_E3_G1460_MultiDec.png, id=76, 578.16pt x 
+<plots/LowEnTransient_FluxSensitivity_E3_G1460_MultiDec.png, id=92, 578.16pt x 
 433.62pt>
 File: plots/LowEnTransient_FluxSensitivity_E3_G1460_MultiDec.png Graphic file (
 type png)
  <use plots/LowEnTransient_FluxSensitivity_E3_G1460_MultiDec.png>
-[17] [18 <./plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png> <./plots/
+[22] [23 <./plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png> <./plots/
 LowEnTransient_FluxSensitivity_E3_G1460_MultiDec.png>]
-<plots/RateLimit_2DHisto_wContours_SysAdjusted.png, id=86, 578.16pt x 433.62pt>
+<plots/RateLimit_2DHisto_wContours_SysAdjusted.png, id=102, 578.16pt x 433.62pt
+>
 File: plots/RateLimit_2DHisto_wContours_SysAdjusted.png Graphic file (type png)
 
-<use plots/RateLimit_2DHisto_wContours_SysAdjusted.png> [19] [20 <./plots/RateL
-imit_2DHisto_wContours_SysAdjusted.png>] [21]
-(./IceCube_2012_LowEnTransient.bbl [22] [23
+ <use plots/RateLimit_2DHisto_wContours_SysAdjusted.png> [24] [25 <./plots/Rate
+Limit_2DHisto_wContours_SysAdjusted.png>] [26]
+(./IceCube_2012_LowEnTransient.bbl [27] [28
 
-]) [24]
+]) [29]
 (./IceCube_2012_LowEnTransient.aux) ) 
 Here is how much of TeX's memory you used:
- 2066 strings out of 256216
- 25950 string characters out of 1917072
- 88874 words of memory out of 1500000
- 5342 multiletter control sequences out of 10000+200000
+ 2070 strings out of 256216
+ 25982 string characters out of 1917072
+ 107081 words of memory out of 1500000
+ 5346 multiletter control sequences out of 10000+200000
  11091 words of font info for 43 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  32i,7n,26p,2866b,260s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -261,9 +268,9 @@ e1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmss8.pfb></usr
 /share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bl
 uesky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/sh
 are/texmf/fonts/type1/bluesky/ams/msam10.pfb>
-Output written on IceCube_2012_LowEnTransient.pdf (24 pages, 657710 bytes).
+Output written on IceCube_2012_LowEnTransient.pdf (29 pages, 671403 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
+ 167 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
