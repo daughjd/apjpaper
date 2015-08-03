@@ -500,20 +500,20 @@ Applying the described analysis method to the unscrambled dataset yields the sky
   \caption[Results Sky Map]{Sky map of pre-trials p-values for best fit flares per bin. The black circle identifies the location of the most significant flare found at RA = 268.75$^\circ$ and Declination = 54.25$^\circ$.}
   \label{fig:RealSkyMap}
 \end{figure}
-Given this null result, we can set an upper limit on the neutrino flux of any possible unobserved neutrino flare that may have occurred during the search period. 
-\subsection{Generic Source Limit}
-Due to the focus on low-energy events in this search, we choose to examine the limit with respect to a soft-spectrum $E^{-3}$ generic flaring neutrino source with a Gaussian emission profile. An upper limit is established through signal injections at a specified location through the following process. First, the background p-value distribution at the chosen location is constructed from several time scramblings of the data. Signal events are then injected with some Poisson mean value that is increased until the recovered p-values from the injections exceed the median background p-value 90$\%$ of the time. This Poisson mean number of signal events is then taken as an event upper limit for the analysis method.
+In light of this null result, we examine the search method's sensitivity to potential neutrino flares in terms of time-integrated neutrino flux.
+\subsection{Generic Source Sensitivity}
+Due to the focus on low-energy events in this search, we choose to determine the sensitivity of the search method with respect to a soft-spectrum $E^{-3}$ generic flaring neutrino source with a Gaussian emission profile. The sensitivity is calculated through signal injections at a specified location through the following process. First, the background p-value distribution at the chosen location is constructed from several time scramblings of the data. Signal events are then injected with some Poisson mean value that is increased until the recovered p-values from the injections exceed the median background p-value 90$\%$ of the time. This Poisson mean number of signal events is then taken as the event sensitivity for the analysis method.
 
-The upper limit on a generic flaring source for several emission timescales and choices of declination is plotted in Figure \ref{fig:GenericE3Limit}. The limit rises at longer timescales as the rate of accidental background correlations becomes non-negligible. A limit on the time-integrated flux (GeV$^{-1} \cdot$ cm$^{-2}$) is also plotted. This limit is obtained by folding the source spectrum with the effective area of the event selection and normalizing the flux so that the number of events produced in the detector corresponds to the calculated Poisson mean event upper limit. 
+The analysis sensitivity to a generic flaring source for several emission timescales and choices of declination is plotted in Figure \ref{fig:GenericE3Limit}. The number of events required for detection rises at longer timescales as the rate of accidental background correlations becomes non-negligible. The sensitivity in terms of time-integrated flux (GeV$^{-1} \cdot$ cm$^{-2}$) is also plotted. This limit is obtained by folding the source spectrum with the effective area of the event selection and normalizing the flux so that the number of events produced in the detector corresponds to the calculated Poisson mean event upper limit. 
 
 \begin{figure}[ht]
 \plottwo{plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png}{plots/LowEnTransient_FluxSensitivity_E3_G1460_MultiDec.png}
-\caption[Time-integrated Flux Limit for E$^{-3}$ Source]{(left) Upper limit (90$\%$ C.L.) for a generic E$^{-3}$ transient source as a function of flare width $\sigma_w$ averaged over the declination range of the analysis.The limit is given in mean number of events (left axis) as well as in time-integrated flux at a reference energy of 100 GeV (right axis). (right) Upper limit (90$\%$ C.L.) for a generic E$^{-3}$ transient source as a function of flare width $\sigma_w$ for different values of source declination.}
+\caption[Time-integrated Flux Limit for E$^{-3}$ Source]{(left) Sensitivity to a generic E$^{-3}$ transient source as a function of flare width $\sigma_w$ averaged over the declination range of the analysis. The sensitivity is given in mean number of events (left axis) as well as in time-integrated flux at a reference energy of 100 GeV (right axis). (right) Sensitivity to a generic E$^{-3}$ transient source as a function of flare width $\sigma_w$ for different values of source declination.}
 \label{fig:GenericE3Limit}
 \end{figure}
 
-\subsection{Choked GRB Limits}
-The null result can also be used to construct limits on specific neutrino emission models such as the RMW/AB model for choked GRB emission mentioned previously. Unlike the hard spectra sources (e.g, E$^{-2}$) that are the typical target in IceCube searches, the neutrino flux for choked GRBs is predicted to be much softer. The spectral shape can be modeled via a doubly broken power law with spectral breaks occurring as hadronic ($E_{\nu^{(1)}}$) and radiative ($E_{\nu^{(2)}}$) cooling mechanisms become efficient (see Eq. \ref{eq:chkgrb_spec}). 
+\subsection{Choked GRB Sensitivity}
+We can also examine the sensitivity of this search method with respect to specific neutrino emission models such as the RMW/AB model for choked GRB emission mentioned previously. Unlike the hard spectra sources (e.g, E$^{-2}$) that are the typical target in IceCube searches, the neutrino flux for choked GRBs is predicted to be much softer. The spectral shape can be modeled via a doubly broken power law with spectral breaks occurring as hadronic ($E_{\nu^{(1)}}$) and radiative ($E_{\nu^{(2)}}$) cooling mechanisms become efficient (see Eq. \ref{eq:chkgrb_spec}). Using the canonical RMW/AB model parameters, the break energies for pions (kaons) occur at 30 GeV (200 GeV) and 100 GeV (20 TeV). Therefore the neutrino spectrum is predicted to be very soft at $\gtrsim 1$ TeV energies.
 \begin{equation}\label{eq:chkgrb_spec}
 \frac{d\Phi_\nu}{dE}=F_\nu\left\{\begin{array}{cc}
 E^{-2} & E < E_{\nu}^{(1)} \\ 
@@ -524,24 +524,28 @@ E_{\nu}^{(1)}E_{\nu}^{(2)}E^{-4} & E_{\nu}^{(2)}< E < E_{max}
 \begin{equation}\label{eq:nuflu}
 F_{\nu} = \frac{<n>_{\pi(K)}B_{\pi(K)}}{8} \cdot \frac{E_j \Gamma_b^2}{2 \pi D^2 \textrm{ln}(E_{p,max}'/ E_{p,min}')}
 \end{equation}
-The fluence $F_\nu$ at the Earth is given by Eq. \ref{eq:nuflu} and depends upon the pion (kaon) multiplicity $<n>$, the neutrino production branching ratio for pions (kaons) $B_{\pi(K)}$, the minimum and maximum proton energies ($E_{p,min}', E_{p,max}'$), the kinetic energy of the jet $E_j$, the bulk Lorentz factor $\Gamma_b$, and lastly the distance to the source $D$. Equations \ref{eq:chkgrb_spec} and \ref{eq:nuflu} reveal that the normalization and spectral shape of the neutrino flux at the Earth are highly dependent on the kinetic energy of the jet $E_j$ and the bulk lorentz factor $\Gamma_b$. We therefore choose to examine the predicted neutrino fluence in $E_j$-$\Gamma_b$ phase space. 
+The fluence $F_\nu$ at the Earth is given by Eq. \ref{eq:nuflu} and depends upon the pion (kaon) multiplicity $<n>$, the neutrino production branching ratio for pions (kaons) $B_{\pi(K)}$, the minimum and maximum proton energies ($E_{p,min}', E_{p,max}'$), the kinetic energy of the jet $E_j$, the bulk Lorentz factor $\Gamma_b$, and lastly the distance to the source $D$. Equations \ref{eq:chkgrb_spec} and \ref{eq:nuflu} reveal that the normalization of the neutrino flux at the Earth is highly dependent on the kinetic energy of the jet $E_j$ and the bulk lorentz factor $\Gamma_b$. These two parameters also determine the shape of the spectrum as the hadronic ($E_{\nu^{(1)}}\propto E_j^{-1} \Gamma_b^5$) and radiative ($E_{\nu^{(2)}}\propto \Gamma_b$) break energies depend upon these jet properties as well. We therefore choose to examine the predicted neutrino fluence in $E_j$-$\Gamma_b$ phase space. 
 
-To determine which values of these parameters produce a fluence detectable through our search method, an event upper limit is first determined via the injection of signal events following a spectrum set by the value of $E_j$ and $\Gamma_b$ (the same process used to generate an event upper limit for the generic $E^{-3}$ scenario). This event upper limit is then combined with the effective area of the event selection to determine the neutrino fluence necessary for detection. For a given choice of $E_j$ and $\Gamma_b$ this sets a limit on the distance at which the source would still be visible to the search, and we define this distance $D_{vis}$ as the visibility distance.
+To determine which values of these parameters produce a fluence detectable through our search method, an event sensitivity is first determined via the injection of signal events following a spectrum set by the value of $E_j$ and $\Gamma_b$ (the same process used to calculate event sensitivity for the generic $E^{-3}$ scenario). This event sensitivity is then combined with the effective area of the event selection to determine the neutrino fluence necessary for detection. For a given choice of $E_j$ and $\Gamma_b$ this sets a limit on the distance at which the source would still be visible to the search, and we define this distance $D_{vis}$ as the visibility distance.
 
-When combined with the area of sky examined by the search $\Omega_{A}$, this visibility distance, in turn, defines a parameter dependent volume $V_A$ ($=\frac{1}{3}\Omega_{A}D_{vis}^{3}$) over which the search method monitors. This monitored volume corresponds to the region in which a choked GRB event would have been detected by the search method with 90$\%$ confidence (assuming jet alignment). If the observation period of the search is considered, this monitored volume can be converted into a limit on the volumetric rate of choked GRB events as a function of $E_j$ and $\Gamma_b$. This, however, requires two assumptions to be made however: 1) The jets of any choked GRB event in this volume are aligned with the Earth and 2) The nearby universe is homogeneous with respect to core-collapse SNe production. The rate limit is then given by
+When combined with the area of sky examined by the search $\Omega_{A}$, this visibility distance, in turn, defines a parameter dependent volume $V_A$ ($=\frac{1}{3}\Omega_{A}D_{vis}^{3}$) over which the search method monitors. This monitored volume corresponds to the region in which a choked GRB event should be visible to the presented search method with 90$\%$ confidence (assuming jet alignment). If the observation period of the search is considered, this monitored volume can be converted into an estimated sensitivity to the volumetric rate of choked GRB events as a function of $E_j$ and $\Gamma_b$. This, however, requires two assumptions to be made however: 1) The jets of any choked GRB event in this volume are aligned with the Earth and 2) The nearby universe is homogeneous with respect to core-collapse SNe production. The rate sensitivity is then given by
 \begin{equation}\label{eq:ratelimit}
 R = \left(\frac{U.L.(0|\mu)}{\tau \cdot V_A}\right),
 \end{equation}
-where $\tau$ is the livetime of the search, $V_A$ is the monitored volume previously defined, and $U.L.(0|\mu)$ is the null observation upper limit on the number of choked GRBs that occurred in our monitored volume with background expectation of $\mu$. Many iterations of the search performed with only background data determined the probability of a background false positive rate to be very small ($\leq 10^{-3}$). We therefore take $\mu\approx0$ leading to a Neyman upper limit of 2.3 from the null observation.
+where $\tau$ is the livetime of the search, $V_A$ is the monitored volume previously defined, and $U.L.(0|\mu)$ is the null observation upper limit on the number of choked GRBs that occurred in our monitored volume with background expectation of $\mu$.
+
+We define this background expectation $\mu$ as the expected number of `false positive' flares that occur due to coincident background events during a given search. 
+
+with only background data determined the probability of a background false positive rate to be very small ($\leq 10^{-3}$). We therefore take $\mu\approx0$ leading to a Neyman upper limit of 2.3 from the null observation.
 \begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=0.8\textwidth,keepaspectratio]{plots/RateLimit_2DHisto_wContours_SysAdjusted.png}
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{plots/RateSens_2DHisto_wContours_SysAdjusted.png}
   \end{center}
-  \caption[Choked GRB Volumetric Rate Limit]{Histogram of the rate limit on choked GRBs in the nearby universe. The bin for canonical values of the RMW/AB emission model is marked by the star. The dashed line contour gives the rate of core-collapse supernovae within 10 Mpc as measured by \cite{2011PhRvD..83l3008K}. The dot-dashed line is the volumetric rate extracted from a large survey of SNe in the local universe \citep{2011MNRAS.412.1419L}}
-  \label{fig:VolumetricRateLimit}
+  \caption[Choked GRB Volumetric Rate Sensitivity]{Histogram of the rate sensitivity on choked GRBs in the nearby universe. The bin for canonical values of the RMW/AB emission model is marked by the star. The dashed line contour gives the rate of core-collapse supernovae within 10 Mpc as measured by \cite{2011PhRvD..83l3008K}. The dot-dashed line is the volumetric rate extracted from a large survey of SNe in the local universe \citep{2011MNRAS.412.1419L}}
+  \label{fig:VolumetricRateSensitivity}
 \end{figure}
 
-The volumetric rate limit for a range of values of $E_j$ and $\Gamma_b$ is plotted in Figure \ref{fig:VolumetricRateLimit}. In addition to the calculated volumetric rate limits, two separate measurements of the nearby CC SNe are also plotted to provide context for the limits. Choked GRB events harboring particularly energetic jet parameters should be visible to the search method. If one compares the limits for the canonical RMW/AB model parameter values ($\Gamma_b = 3$, $E_j = 10^{51.5}$ erg) to the CC SNe rates, it is clear that the search method is not very sensitive to large regions of the model parameter space in its current state. The capabilities of future iterations of this type of search should be considerably improved as both the event selection and analysis methods are refined.
+The volumetric rate sensitivity for a range of values of $E_j$ and $\Gamma_b$ is plotted in Figure \ref{fig:VolumetricRateLimit}. Two separate measurements of the nearby CC SNe are plotted as well to provide context to the calculated rate sensitivities. Choked GRB events harboring particularly energetic jet parameters should be visible to the search method. However, if one compares the rate sensitivity for the canonical RMW/AB model parameter values ($\Gamma_b = 3$, $E_j = 10^{51.5}$ erg) to the CC SNe rates, it is clear that the search method is not very sensitive to large regions of the model parameter space in its current state. The capabilities of future iterations of this type of search should be considerably improved as both the event selection and analysis methods are refined.
 
 %% Be more specific about improvements to be made	
 \section{Conclusions}
@@ -572,98 +576,6 @@ Swiss National Science Foundation (SNSF), Switzerland; National Research
 Foundation of Korea (NRF); Danish National Research Foundation, Denmark (DNRF). 
 
 \bibliography{IceCube_2012_LowEnTransient}{}
-
-\clearpage
-
-%% Use the figure environment and \plotone or \plottwo to include
-%% figures and captions in your electronic submission.
-%% To embed the sample graphics in
-%% the file, uncomment the \plotone, \plottwo, and
-%% \includegraphics commands
-%%
-%% If you need a layout that cannot be achieved with \plotone or
-%% \plottwo, you can invoke the graphicx package directly with the
-%% \includegraphics command or use \plotfiddle. For more information,
-%% please see the tutorial on "Using Electronic Art with AASTeX" in the
-%% documentation section at the AASTeX Web site, http://aastex.aas.org/
-%%
-%% The examples below also include sample markup for submission of
-%% supplemental electronic materials. As always, be sure to check
-%% the instructions to authors for the journal you are submitting to
-%% for specific submissions guidelines as they vary from
-%% journal to journal.
-
-%% This example uses \plotone to include an EPS file scaled to
-%% 80% of its natural size with \epsscale. Its caption
-%% has been written to indicate that additional figure parts will be
-%% available in the electronic journal.
-
-%\begin{figure}
-%\epsscale{.80}
-%\plotone{f1.eps}
-%\caption{Derived spectra for 3C138 \citep[see][]{heiles03}. Plots for all %sources are available
-%in the electronic edition of {\it The Astrophysical Journal}.\label{fig1}}
-%\end{figure}
-
-\clearpage
-
-%% Here we use \plottwo to present two versions of the same figure,
-%% one in black and white for print the other in RGB color
-%% for online presentation. Note that the caption indicates
-%% that a color version of the figure will be available online.
-%%
-
-%\begin{figure}
-%\plottwo{f2.eps}{f2_color.eps}
-%\caption{A panel taken from Figure 2 of \citet{rudnick03}. 
-%See the electronic edition of the Journal for a color version 
-%of this figure.\label{fig2}}
-%\end{figure}
-
-%% This figure uses \includegraphics to scale and rotate the still frame
-%% for an mpeg animation.
-
-%\begin{figure}
-%\includegraphics[angle=90,scale=.50]{f3.eps}
-%\caption{Animation still frame taken from \citet{kim03}.
-%This figure is also available as an mpeg
-%animation in the electronic edition of the
-%{\it Astrophysical Journal}.}
-%\end{figure}
-
-%% If you are not including electonic art with your submission, you may
-%% mark up your captions using the \figcaption command. See the
-%% User Guide for details.
-%%
-%% No more than seven \figcaption commands are allowed per page,
-%% so if you have more than seven captions, insert a \clearpage
-%% after every seventh one.
-
-%% Tables should be submitted one per page, so put a \clearpage before
-%% each one.
-
-%% Two options are available to the author for producing tables:  the
-%% deluxetable environment provided by the AASTeX package or the LaTeX
-%% table environment.  Use of deluxetable is preferred.
-%%
-
-%% Three table samples follow, two marked up in the deluxetable environment,
-%% one marked up as a LaTeX table.
-
-%% In this first example, note that the \tabletypesize{}
-%% command has been used to reduce the font size of the table.
-%% We also use the \rotate command to rotate the table to
-%% landscape orientation since it is very wide even at the
-%% reduced font size.
-%%
-%% Note also that the \label command needs to be placed
-%% inside the \tablecaption.
-
-%% This table also includes a table comment indicating that the full
-%% version will be available in machine-readable format in the electronic
-%% edition.
-
-\clearpage
 
 
 \end{document}
