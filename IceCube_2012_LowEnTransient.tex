@@ -13,7 +13,7 @@
 \begin{document}
 
 
-\title{Search for Short Transient Neutrino Emission with IceCube-DeepCore}
+\title{Search for Short Astrophysical Transient Neutrino Emission with IceCube-DeepCore}
 %\author{IceCube Authors}
 \author{
 IceCube Collaboration:
@@ -534,9 +534,7 @@ R = \left(\frac{U.L.(0|\mu)}{\tau \cdot V_A}\right),
 \end{equation}
 where $\tau$ is the livetime of the search, $V_A$ is the monitored volume previously defined, and $U.L.(0|\mu)$ is the null observation upper limit on the number of choked GRBs that occurred in our monitored volume with background expectation of $\mu$.
 
-We define this background expectation $\mu$ as the expected number of `false positive' flares that occur due to coincident background events during a given search. 
-
-with only background data determined the probability of a background false positive rate to be very small ($\leq 10^{-3}$). We therefore take $\mu\approx0$ leading to a Neyman upper limit of 2.3 from the null observation.
+We define this background expectation $\mu$ as the expected number of `false positive' flares that occur due to coincident background events during a given search. To calculate the value of $\mu$, we first perform many iterations of the analysis with $n_s$ signal events injected at a specific declination where $n_s$ is the calculated event sensitivity at that declination. The test statistic for these injection trials form a distribution from which we can take the median value, $\lambda_{inj}^{med}$. Once $\lambda_{inj}^{med}$ has been determined, the analysis is run again scanning over the same declination band using a time-scrambled dataset with no injections. Several iterations of this procedure builds a background test statistic distribution. The number of entries in the background distribution whose test statistic value exceeds the threshold $\lambda_{inj}^{med}$ are then recorded. This number is then divided by the number of background-only analysis iterations performed to yield an expected false positive rate per search. This procedure revealed the false positive rate to be very small ($\leq 10^{-3}$). We therefore take $\mu\approx0$ leading to a Neyman upper limit of 2.3 from the null observation.
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=0.8\textwidth,keepaspectratio]{plots/RateSens_2DHisto_wContours_SysAdjusted.png}
@@ -545,9 +543,8 @@ with only background data determined the probability of a background false posit
   \label{fig:VolumetricRateSensitivity}
 \end{figure}
 
-The volumetric rate sensitivity for a range of values of $E_j$ and $\Gamma_b$ is plotted in Figure \ref{fig:VolumetricRateLimit}. Two separate measurements of the nearby CC SNe are plotted as well to provide context to the calculated rate sensitivities. Choked GRB events harboring particularly energetic jet parameters should be visible to the search method. However, if one compares the rate sensitivity for the canonical RMW/AB model parameter values ($\Gamma_b = 3$, $E_j = 10^{51.5}$ erg) to the CC SNe rates, it is clear that the search method is not very sensitive to large regions of the model parameter space in its current state. The capabilities of future iterations of this type of search should be considerably improved as both the event selection and analysis methods are refined.
+The volumetric rate sensitivity for a range of values of $E_j$ and $\Gamma_b$ is plotted in Figure \ref{fig:VolumetricRateSensitivity}. Two separate measurements of the nearby CC SNe are plotted as well to provide context to the calculated rate sensitivities. Choked GRB events harboring particularly energetic jet parameters should be visible to the search method. However, if one compares the rate sensitivity for the canonical RMW/AB model parameter values ($\Gamma_b = 3$, $E_j = 10^{51.5}$ erg) to the CC SNe rates, it is clear that the search method is not very sensitive to large regions of the model parameter space in its current state. However, the sensitivity of this search can be improved through refinement of the event selection and analysis methods. Potential changes include greater signal retention through more efficient use of multi-variate machine learning cuts in the event selection process, the use of reconstruction methods optimized for sub-TeV muon tracks, and more accurate modeling of event angular error distribution. 
 
-%% Be more specific about improvements to be made	
 \section{Conclusions}
 The described search examined a newly developed data set consisting of 30-300 GeV muon neutrinos. No evidence for transient astrophysical neutrino sources was found in the data, leading to the construction of upper limits on the neutrino fluence of potential sources within the observation period. In particular, we examine the derived limit in the context of neutrino emission from choked GRBs. Although this search in its current configuration is only sensitive to particularly energetic or nearby choked GRBs, the sensitivity of this method will improve as the event selection and search techniques are further optimized for muon neutrino events at sub-TeV energies. Most importantly, continued development of this event selection will complement the current mature IceCube analyses at higher energies, leading to an overall enhancement of the detector's sensitivity to transient sources.
 
