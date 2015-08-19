@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  4 AUG 2015 16:49
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  19 AUG 2015 17:25
 entering extended mode
  %&-line parsing enabled.
 **IceCube_2012_LowEnTransient.tex
@@ -193,19 +193,20 @@ ury, Pri-vate Bag 4800,
 ] [8
 
 ] [9] [10] [11] [12] [13] [14]
-Plottwo included the files plots/FinalSample_NchDistribution_Rates_NormedNugen.
-png plots/FinalSample_SplineMPEZenith_Rates_NormedNugen.png
+Plottwo included the files plots/FinalSample_NchDistribution_Rates_NormedNugen_
+BW.png plots/FinalSample_SplineMPEZenith_Rates_NormedNugen_BW.png
 
-<plots/FinalSample_NchDistribution_Rates_NormedNugen.png, id=57, 578.16pt x 433
-.62pt>
-File: plots/FinalSample_NchDistribution_Rates_NormedNugen.png Graphic file (typ
-e png)
- <use plots/FinalSample_NchDistribution_Rates_NormedNugen.png>
-<plots/FinalSample_SplineMPEZenith_Rates_NormedNugen.png, id=58, 578.16pt x 433
-.62pt>
-File: plots/FinalSample_SplineMPEZenith_Rates_NormedNugen.png Graphic file (typ
-e png)
- <use plots/FinalSample_SplineMPEZenith_Rates_NormedNugen.png> [15]
+<plots/FinalSample_NchDistribution_Rates_NormedNugen_BW.png, id=57, 578.16pt x 
+433.62pt>
+File: plots/FinalSample_NchDistribution_Rates_NormedNugen_BW.png Graphic file (
+type png)
+ <use plots/FinalSample_NchDistribution_Rates_NormedNugen_BW.png>
+<plots/FinalSample_SplineMPEZenith_Rates_NormedNugen_BW.png, id=58, 578.16pt x 
+433.62pt>
+File: plots/FinalSample_SplineMPEZenith_Rates_NormedNugen_BW.png Graphic file (
+type png)
+ <use plots/FinalSample_SplineMPEZenith_Rates_NormedNugen_BW.png>
+[15]
 Plottwo included the files plots/PaperEffArea_ANTARES_StdPS.png plots/CombinedR
 esolution_CombinedSimulationFinalSample.png
 <plots/PaperEffArea_ANTARES_StdPS.png, id=62, 578.16pt x 433.62pt>
@@ -217,10 +218,10 @@ File: plots/PaperEffArea_ANTARES_StdPS.png Graphic file (type png)
 File: plots/CombinedResolution_CombinedSimulationFinalSample.png Graphic file (
 type png)
  <use plots/CombinedResolution_CombinedSimulationFinalSample.png>
-[16 <./plots/FinalSample_NchDistribution_Rates_NormedNugen.png> <./plots/FinalS
-ample_SplineMPEZenith_Rates_NormedNugen.png>] [17 <./plots/PaperEffArea_ANTARES
-_StdPS.png> <./plots/CombinedResolution_CombinedSimulationFinalSample.png>]
-[18] [19] <plots/RealResultSkyMap.png, id=83, 1092.7224pt x 731.3724pt>
+[16 <./plots/FinalSample_NchDistribution_Rates_NormedNugen_BW.png> <./plots/Fin
+alSample_SplineMPEZenith_Rates_NormedNugen_BW.png>] [17 <./plots/PaperEffArea_A
+NTARES_StdPS.png> <./plots/CombinedResolution_CombinedSimulationFinalSample.png
+>] [18] [19] <plots/RealResultSkyMap.png, id=83, 1092.7224pt x 731.3724pt>
 File: plots/RealResultSkyMap.png Graphic file (type png)
 
 <use plots/RealResultSkyMap.png> [20] [21 <./plots/RealResultSkyMap.png>]
@@ -239,34 +240,38 @@ type png)
  <use plots/LowEnTransient_FluxSensitivity_E3_G1460_MultiDec.png>
 [22] [23 <./plots/LowEnTransient_UpperLimit_E3_G1460_Avg_DoubleY.png> <./plots/
 LowEnTransient_FluxSensitivity_E3_G1460_MultiDec.png>] [24]
-<plots/RateSens_2DHisto_wContours_SysAdjusted.png, id=105, 578.16pt x 433.62pt>
-File: plots/RateSens_2DHisto_wContours_SysAdjusted.png Graphic file (type png)
-<use plots/RateSens_2DHisto_wContours_SysAdjusted.png> [25] [26 <./plots/RateSe
-ns_2DHisto_wContours_SysAdjusted.png>] (./IceCube_2012_LowEnTransient.bbl
-[27] [28
+<plots/BW_RateLimit_2DHisto_wContours_SysAdjusted.png, id=106, 578.16pt x 433.6
+2pt>
+File: plots/BW_RateLimit_2DHisto_wContours_SysAdjusted.png Graphic file (type p
+ng)
+ <use plots/BW_RateLimit_2DHisto_wContours_SysAdjusted.png> [25] [26 <./plots/B
+W_RateLimit_2DHisto_wContours_SysAdjusted.png>] [27]
+(./IceCube_2012_LowEnTransient.bbl [28] [29
 
-]) [29] (./IceCube_2012_LowEnTransient.aux) ) 
+]) [30]
+(./IceCube_2012_LowEnTransient.aux) ) 
 Here is how much of TeX's memory you used:
- 2071 strings out of 256216
- 26004 string characters out of 1917072
- 107136 words of memory out of 1500000
- 5347 multiletter control sequences out of 10000+200000
+ 2072 strings out of 256216
+ 26075 string characters out of 1917072
+ 107173 words of memory out of 1500000
+ 5348 multiletter control sequences out of 10000+200000
  11091 words of font info for 43 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  32i,7n,26p,2866b,260s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/blue
-sky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb></usr/shar
-e/texmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky
-/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/t
-exmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
-cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/f
-onts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmss8.p
-fb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/
-type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-</usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb>
-Output written on IceCube_2012_LowEnTransient.pdf (29 pages, 673442 bytes).
+</usr/share/texmf/fonts/type1/bluesky/cm/c
+mbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb></usr/share/texmf/
+fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi
+12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi6.pfb></usr/share/texmf/fon
+ts/type1/bluesky/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pf
+b></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/ty
+pe1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr
+/share/texmf/fonts/type1/bluesky/cm/cmss8.pfb></usr/share/texmf/fonts/type1/blu
+esky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/sha
+re/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesk
+y/ams/msam10.pfb>
+Output written on IceCube_2012_LowEnTransient.pdf (30 pages, 682359 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
+ 174 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
