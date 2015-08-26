@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  20 AUG 2015 15:57
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  21 AUG 2015 12:02
 entering extended mode
  %&-line parsing enabled.
 **IceCube_2012_LowEnTransient.tex
@@ -221,11 +221,11 @@ type png)
 [16 <./plots/FinalSample_NchDistribution_Rates_NormedNugen_BW.png> <./plots/Fin
 alSample_SplineMPEZenith_Rates_NormedNugen_BW.png>] [17 <./plots/PaperEffArea_A
 NTARES_StdPS.png> <./plots/CombinedResolution_CombinedSimulationFinalSample.png
->] [18] [19] <plots/BW_RealSkyMap_Cut.png, id=83, 1084.05pt x 465.4188pt>
-File: plots/BW_RealSkyMap_Cut.png Graphic file (type png)
+>] [18] [19] <plots/RealResultSkyMap_Cut.png, id=83, 1084.05pt x 469.0323pt>
+File: plots/RealResultSkyMap_Cut.png Graphic file (type png)
 
-<use plots/BW_RealSkyMap_Cut.png> [20] [21 <./plots/BW_RealSkyMap_Cut.png (PNG 
-copy)>]
+<use plots/RealResultSkyMap_Cut.png> [20] [21 <./plots/RealResultSkyMap_Cut.png
+ (PNG copy)>]
 Plottwo included the files plots/LowEnTransient_FluxUpperLimit_E3_G1460_Avg_Dou
 bleY.png plots/LowEnTransient_FluxUpperLimit_E3_G1460_MultiDec.png
 
@@ -241,12 +241,12 @@ ype png)
  <use plots/LowEnTransient_FluxUpperLimit_E3_G1460_MultiDec.png>
 [22 <./plots/LowEnTransient_FluxUpperLimit_E3_G1460_Avg_DoubleY.png (PNG copy)>
  <./plots/LowEnTransient_FluxUpperLimit_E3_G1460_MultiDec.png>] [23]
-<plots/BW_RateLimit_2DHisto_wContours_SysAdjusted.png, id=100, 578.16pt x 433.6
-2pt>
-File: plots/BW_RateLimit_2DHisto_wContours_SysAdjusted.png Graphic file (type p
-ng)
- <use plots/BW_RateLimit_2DHisto_wContours_SysAdjusted.png> [24] [25]
-[26 <./plots/BW_RateLimit_2DHisto_wContours_SysAdjusted.png>]
+<plots/RateLimit_2DHisto_wContours_SysAdjusted.png, id=100, 578.16pt x 433.62pt
+>
+File: plots/RateLimit_2DHisto_wContours_SysAdjusted.png Graphic file (type png)
+
+ <use plots/RateLimit_2DHisto_wContours_SysAdjusted.png> [24] [25] [26 <./plots
+/RateLimit_2DHisto_wContours_SysAdjusted.png>]
 (./IceCube_2012_LowEnTransient.bbl [27] [28
 
 ]) [29]
@@ -270,7 +270,7 @@ pe1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr
 esky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/sha
 re/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesk
 y/ams/msam10.pfb>
-Output written on IceCube_2012_LowEnTransient.pdf (29 pages, 586136 bytes).
+Output written on IceCube_2012_LowEnTransient.pdf (29 pages, 636634 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)

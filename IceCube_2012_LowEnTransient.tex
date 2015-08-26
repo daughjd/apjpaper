@@ -495,7 +495,7 @@ In order to preserve generality, the presented search makes no use of informatio
 Applying the described analysis method to the unscrambled dataset yields the skymap of the pre-trials p-values shown in Figure \ref{fig:RealSkyMap}. The most significant flare is located at (RA, Dec.) = (268.75$^{\circ}$, 54.25$^{\circ}$) with a signal strength $n_s$ of 13.53 signal events and a width $\sigma_w$ of 5.89 days with the peak occurring on MJD 56107 (2012 June 29). The pre-trials p-value for this flare is estimated at 6.68$\times 10^{-5}$. The post-trials probability of seeing such a flare in a data set consisting of background only is 56$\%$, indicating that this flare is entirely consistent with the background hypothesis of the data.
 \begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/BW_RealSkyMap_Cut.png}
+    \includegraphics[width=1.0\textwidth,keepaspectratio]{plots/RealResultSkyMap_Cut.png}
   \end{center}
   \caption[Results Sky Map]{Sky map of pre-trials p-values for best fit flares per bin. The black circle identifies the location of the most significant flare found at RA = 268.75$^\circ$ and Declination = 54.25$^\circ$ (Color version available online).}
   \label{fig:RealSkyMap}
@@ -537,7 +537,7 @@ where $\tau$ is the livetime of the search, $V_A$ is the monitored volume previo
 We define this background expectation $\mu$ as the expected number of `false positive' flares that occur due to coincident background events during a given search. To calculate the value of $\mu$, we first perform many iterations of the analysis with $n_s$ signal events injected at a specific declination where $n_s$ is the calculated event sensitivity at that declination. The test statistic for these injection trials form a distribution from which we can take the median value, $\lambda_{inj}^{med}$. Once $\lambda_{inj}^{med}$ has been determined, the analysis is run again scanning over the same declination band using a time-scrambled dataset with no injections. Several iterations of this procedure builds a background test statistic distribution. The number of entries in the background distribution whose test statistic value exceeds the threshold $\lambda_{inj}^{med}$ are then recorded. This number is then divided by the number of background-only analysis iterations performed to yield an expected false positive rate per search. This procedure revealed the false positive rate to be very small ($\leq 10^{-3}$). We therefore take $\mu\approx0$ leading to a Neyman upper limit of 2.3 from the null observation.
 \begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=0.8\textwidth,keepaspectratio]{plots/BW_RateLimit_2DHisto_wContours_SysAdjusted.png}
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{plots/RateLimit_2DHisto_wContours_SysAdjusted.png}
   \end{center}
   \caption[Choked GRB Volumetric Rate Limit]{Histogram of the rate limit on choked GRBs in the nearby universe. The bin for canonical values of the RMW/AB emission model is marked by the star. The dashed line contour gives the rate of core-collapse supernovae within 10 Mpc as measured by \cite{2011PhRvD..83l3008K}. The dot-dashed line is the volumetric rate extracted from a large survey of SNe in the local universe \citep{2011MNRAS.412.1419L} (Color version available online)}
   \label{fig:VolumetricRateSensitivity}
