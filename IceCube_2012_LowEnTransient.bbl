@@ -54,11 +54,23 @@
 Aartsen, M.~G., Ackermann, M., Adams, J., {et~al.} 2015, The Astrophysical
   Journal, 807, 46
 
+\bibitem[{{Abbasi} {et~al.}(2009){Abbasi}, {Ackermann}, {Adams}, {Ahlers},
+  {Ahrens}, {Andeen}, {Auffenberg}, {Bai}, {Baker}, {Barwick}, \&
+  et~al.}]{2009NIMPA.601..294A}
+{Abbasi}, R., {Ackermann}, M., {Adams}, J., {et~al.} 2009, Nuclear Instruments
+  and Methods in Physics Research A, 601, 294
+
 \bibitem[{{Abbasi} {et~al.}(2012){Abbasi}, {Abdou}, {Abu-Zayyad}, {Ackermann},
   {Adams}, {Aguilar}, {Ahlers}, {Allen}, {Altmann}, {Andeen}, \&
   et~al.}]{2012APh....35..615A}
 {Abbasi}, R., {Abdou}, Y., {Abu-Zayyad}, T., {et~al.} 2012, Astroparticle
   Physics, 35, 615
+
+\bibitem[{{Achterberg} {et~al.}(2006){Achterberg}, {Ackermann}, {Adams},
+  {Ahrens}, {Andeen}, {Atlee}, {Baccus}, {Bahcall}, {Bai}, \&
+  et~al.}]{2006APh....26..155I}
+{Achterberg}, A., {Ackermann}, M., {Adams}, J., {et~al.} 2006, Astroparticle
+  Physics, 26, 155
 
 \bibitem[{{Adri{\'a}n-Mart{\'{\i}}nez}
   {et~al.}(2012){Adri{\'a}n-Mart{\'{\i}}nez}, {Samarai}, {Albert}, {Andr{\'e}},
@@ -129,12 +141,6 @@ Aartsen, M.~G., Ackermann, M., Adams, J., {et~al.} 2015, The Astrophysical
   \& {Montaruli}}]{2008APh....29..299B}
 {Braun}, J., {Dumm}, J., {De Palma}, F., {et~al.} 2008, Astroparticle Physics,
   29, 299
-
-\bibitem[{{IceCube Collaboration} {et~al.}(2006){IceCube Collaboration},
-  {Achterberg}, {Ackermann}, {Adams}, {Ahrens}, {Andeen}, {Atlee}, {Baccus},
-  {Bahcall}, {Bai}, \& et~al.}]{2006APh....26..155I}
-{IceCube Collaboration}, {Achterberg}, A., {Ackermann}, M., {et~al.} 2006,
-  Astroparticle Physics, 26, 155
 
 \bibitem[{Kent(1982)}]{Fisher_Bingham}
 Kent, J.~T. 1982, Journal of the Royal Statistical Society. Series B
