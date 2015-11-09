@@ -1,11 +1,16 @@
 \begin{thebibliography}{}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
+\bibitem[{{Aartsen} {et~al.}(2013){Aartsen}, {Abbasi}, {Abdou}, {Ackermann},
+  {Adams}, {Aguilar}, {Ahlers}, {Altmann}, {Auffenberg}, {Bai}, \&
+  et~al.}]{2013ApJ...779..132A}
+{Aartsen}, M.~G., {Abbasi}, R., {Abdou}, Y., {et~al.} 2013, \apj, 779, 132
+
 \bibitem[{{Aartsen} {et~al.}(2014{\natexlab{a}}){Aartsen}, {Abbasi}, {Abdou},
   {Ackermann}, {Adams}, {Aguilar}, {Ahlers}, {Altmann}, {Auffenberg}, {Bai}, \&
   et~al.}]{2014NIMPA.736..143A}
-{Aartsen}, M.~G., {Abbasi}, R., {Abdou}, Y., {et~al.} 2014{\natexlab{a}},
-  Nuclear Instruments and Methods in Physics Research A, 736, 143
+---. 2014{\natexlab{a}}, Nuclear Instruments and Methods in Physics Research A,
+  736, 143
 
 \bibitem[{{Aartsen} {et~al.}(2014{\natexlab{b}}){Aartsen}, {Ackermann},
   {Adams}, {Aguilar}, {Ahlers}, {Ahrens}, {Altmann}, {Anderson}, {Arguelles},
@@ -141,6 +146,12 @@ Aartsen, M.~G., Ackermann, M., Adams, J., {et~al.} 2015, The Astrophysical
   \& {Montaruli}}]{2008APh....29..299B}
 {Braun}, J., {Dumm}, J., {De Palma}, F., {et~al.} 2008, Astroparticle Physics,
   29, 299
+
+\bibitem[{Hastie {et~al.}(2001)Hastie, Tibshirani, \&
+  Friedman}]{hastie01statisticallearning}
+Hastie, T., Tibshirani, R., \& Friedman, J. 2001, The Elements of Statistical
+  Learning, Springer Series in Statistics (New York, NY, USA: Springer New York
+  Inc.)
 
 \bibitem[{Kent(1982)}]{Fisher_Bingham}
 Kent, J.~T. 1982, Journal of the Royal Statistical Society. Series B
