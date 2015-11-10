@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  9 NOV 2015 16:53
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.20)  10 NOV 2015 15:12
 entering extended mode
  %&-line parsing enabled.
 **IceCube_2012_LowEnTransient.tex
@@ -188,19 +188,7 @@ type pdf)
 File: plots/FinalSample_SplineMPEZenith_Rates_NormedNugen_BW.pdf Graphic file (
 type pdf)
  <use plots/FinalSample_SplineMPEZenith_Rates_NormedNugen_BW.pdf>
-[15]
-Plottwo included the files plots/PaperEffArea_ANTARES_StdPS.pdf plots/CombinedR
-esolution_CombinedSimulationFinalSample.pdf
-<plots/PaperEffArea_ANTARES_StdPS.pdf, id=61, 578.16pt x 433.62pt>
-File: plots/PaperEffArea_ANTARES_StdPS.pdf Graphic file (type pdf)
-
-<use plots/PaperEffArea_ANTARES_StdPS.pdf>
-<plots/CombinedResolution_CombinedSimulationFinalSample.pdf, id=62, 578.16pt x 
-433.62pt>
-File: plots/CombinedResolution_CombinedSimulationFinalSample.pdf Graphic file (
-type pdf)
- <use plots/CombinedResolution_CombinedSimulationFinalSample.pdf>
-[16 <./plots/FinalSample_NchDistribution_Rates_NormedNugen_BW.pdf
+[15] [16 <./plots/FinalSample_NchDistribution_Rates_NormedNugen_BW.pdf
 
 pdfTeX warning: pdflatex (file ./plots/FinalSample_NchDistribution_Rates_Normed
 Nugen_BW.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ig
@@ -210,7 +198,19 @@ noring it.
 pdfTeX warning: pdflatex (file ./plots/FinalSample_SplineMPEZenith_Rates_Normed
 Nugen_BW.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ig
 noring it.
->] [17 <./plots/PaperEffArea_ANTARES_StdPS.pdf
+>]
+Plottwo included the files plots/PaperEffArea_ANTARES_StdPS.pdf plots/CombinedR
+esolution_CombinedSimulationFinalSample.pdf
+<plots/PaperEffArea_ANTARES_StdPS.pdf, id=154, 578.16pt x 433.62pt>
+File: plots/PaperEffArea_ANTARES_StdPS.pdf Graphic file (type pdf)
+
+<use plots/PaperEffArea_ANTARES_StdPS.pdf>
+<plots/CombinedResolution_CombinedSimulationFinalSample.pdf, id=155, 578.16pt x
+ 433.62pt>
+File: plots/CombinedResolution_CombinedSimulationFinalSample.pdf Graphic file (
+type pdf)
+ <use plots/CombinedResolution_CombinedSimulationFinalSample.pdf>
+[17] [18 <./plots/PaperEffArea_ANTARES_StdPS.pdf
 
 pdfTeX warning: pdflatex (file ./plots/PaperEffArea_ANTARES_StdPS.pdf): PDF inc
 lusion: Page Group detected which pdfTeX can't handle. Ignoring it.
@@ -219,35 +219,34 @@ lusion: Page Group detected which pdfTeX can't handle. Ignoring it.
 pdfTeX warning: pdflatex (file ./plots/CombinedResolution_CombinedSimulationFin
 alSample.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ig
 noring it.
->] [18] [19] <plots/RealSkyMap_FineCut.png, id=198, 1084.05pt x 487.0998pt>
+>] [19] [20] <plots/RealSkyMap_FineCut.png, id=201, 1084.05pt x 487.0998pt>
 File: plots/RealSkyMap_FineCut.png Graphic file (type png)
 
 <use plots/RealSkyMap_FineCut.png>
-<plots/TestStatisticDistribution_WithResult.pdf, id=199, 578.16pt x 433.62pt>
+<plots/TestStatisticDistribution_WithResult.pdf, id=202, 578.16pt x 433.62pt>
 File: plots/TestStatisticDistribution_WithResult.pdf Graphic file (type pdf)
 
-<use plots/TestStatisticDistribution_WithResult.pdf> [20] [21 <./plots/RealSkyM
-ap_FineCut.png (PNG copy)>] [22 <./plots/TestStatisticDistribution_WithResult.p
-df
-
-pdfTeX warning: pdflatex (file ./plots/TestStatisticDistribution_WithResult.pdf
-): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
->]
+<use plots/TestStatisticDistribution_WithResult.pdf> [21] [22 <./plots/RealSkyM
+ap_FineCut.png (PNG copy)>]
 Plottwo included the files plots/LowEnTransient_FluxUpperLimit_E3_G1460_Avg_Dou
 bleY.pdf plots/LowEnTransient_FluxUpperLimit_E3_G1460_MultiDec.pdf
 
-<plots/LowEnTransient_FluxUpperLimit_E3_G1460_Avg_DoubleY.pdf, id=221, 578.16pt
+<plots/LowEnTransient_FluxUpperLimit_E3_G1460_Avg_DoubleY.pdf, id=209, 578.16pt
  x 433.62pt>
 File: plots/LowEnTransient_FluxUpperLimit_E3_G1460_Avg_DoubleY.pdf Graphic file
  (type pdf)
 
 <use plots/LowEnTransient_FluxUpperLimit_E3_G1460_Avg_DoubleY.pdf>
-<plots/LowEnTransient_FluxUpperLimit_E3_G1460_MultiDec.pdf, id=222, 578.16pt x 
+<plots/LowEnTransient_FluxUpperLimit_E3_G1460_MultiDec.pdf, id=210, 578.16pt x 
 433.62pt>
 File: plots/LowEnTransient_FluxUpperLimit_E3_G1460_MultiDec.pdf Graphic file (t
 ype pdf)
  <use plots/LowEnTransient_FluxUpperLimit_E3_G1460_MultiDec.pdf>
-[23 <./plots/LowEnTransient_FluxUpperLimit_E3_G1460_Avg_DoubleY.pdf
+[23 <./plots/TestStatisticDistribution_WithResult.pdf
+
+pdfTeX warning: pdflatex (file ./plots/TestStatisticDistribution_WithResult.pdf
+): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it.
+>] [24 <./plots/LowEnTransient_FluxUpperLimit_E3_G1460_Avg_DoubleY.pdf
 
 pdfTeX warning: pdflatex (file ./plots/LowEnTransient_FluxUpperLimit_E3_G1460_A
 vg_DoubleY.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. 
@@ -257,29 +256,29 @@ Ignoring it.
 pdfTeX warning: pdflatex (file ./plots/LowEnTransient_FluxUpperLimit_E3_G1460_M
 ultiDec.pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ign
 oring it.
->] [24]
-<plots/RateLimit_2DHisto_wContours_SysAdjusted.pdf, id=258, 578.16pt x 433.62pt
+>] [25]
+<plots/RateLimit_2DHisto_wContours_SysAdjusted.pdf, id=262, 578.16pt x 433.62pt
 >
 File: plots/RateLimit_2DHisto_wContours_SysAdjusted.pdf Graphic file (type pdf)
 
- <use plots/RateLimit_2DHisto_wContours_SysAdjusted.pdf> [25] [26 <./plots/Rate
+ <use plots/RateLimit_2DHisto_wContours_SysAdjusted.pdf> [26] [27 <./plots/Rate
 Limit_2DHisto_wContours_SysAdjusted.pdf
 
 pdfTeX warning: pdflatex (file ./plots/RateLimit_2DHisto_wContours_SysAdjusted.
 pdf): PDF inclusion: Page Group detected which pdfTeX can't handle. Ignoring it
 .
->] [27] (./IceCube_2012_LowEnTransient.bbl [28] [29
+>] [28] (./IceCube_2012_LowEnTransient.bbl [29] [30
 
-]) [30]
+] [31]) [32]
 (./IceCube_2012_LowEnTransient.aux) ) 
 Here is how much of TeX's memory you used:
- 1875 strings out of 256216
- 23388 string characters out of 1917072
- 105497 words of memory out of 1500000
- 5155 multiletter control sequences out of 10000+200000
+ 1877 strings out of 256216
+ 23430 string characters out of 1917072
+ 105764 words of memory out of 1500000
+ 5157 multiletter control sequences out of 10000+200000
  10791 words of font info for 42 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 32i,7n,26p,2866b,262s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 32i,7n,26p,2866b,266s stack positions out of 5000i,500n,6000p,200000b,15000s
 </usr/share/texmf/fonts/type1/bluesky/cm/c
 mbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb></usr/share/texmf/
 fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi
@@ -291,9 +290,9 @@ usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/b
 luesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/sh
 are/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesk
 y/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb>
-Output written on IceCube_2012_LowEnTransient.pdf (30 pages, 709431 bytes).
+Output written on IceCube_2012_LowEnTransient.pdf (32 pages, 712576 bytes).
 PDF statistics:
- 966 PDF objects out of 1000 (max. 8388607)
+ 973 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

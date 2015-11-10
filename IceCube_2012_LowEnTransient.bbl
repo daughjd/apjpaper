@@ -134,6 +134,13 @@ Aartsen, M.~G., Ackermann, M., Adams, J., {et~al.} 2015, The Astrophysical
 \bibitem[{{Ando} \& {Beacom}(2005)}]{2005PhRvL..95f1103A}
 {Ando}, S., \& {Beacom}, J.~F. 2005, Physical Review Letters, 95, 061103
 
+\bibitem[{{Andreopoulos} {et~al.}(2010){Andreopoulos}, {Bell}, {Bhattacharya},
+  {Cavanna}, {Dobson}, {Dytman}, {Gallagher}, {Guzowski}, {Hatcher},
+  {Kehayias}, {Meregaglia}, {Naples}, {Pearce}, {Rubbia}, {Whalley}, \&
+  {Yang}}]{2010NIMPA.614...87A}
+{Andreopoulos}, C., {Bell}, A., {Bhattacharya}, D., {et~al.} 2010, Nuclear
+  Instruments and Methods in Physics Research A, 614, 87
+
 \bibitem[{{Becker} \& {Biermann}(2009)}]{2009APh....31..138B}
 {Becker}, J.~K., \& {Biermann}, P.~L. 2009, Astroparticle Physics, 31, 138
 
@@ -146,6 +153,10 @@ Aartsen, M.~G., Ackermann, M., Adams, J., {et~al.} 2015, The Astrophysical
   \& {Montaruli}}]{2008APh....29..299B}
 {Braun}, J., {Dumm}, J., {De Palma}, F., {et~al.} 2008, Astroparticle Physics,
   29, 299
+
+\bibitem[{{Gazizov} \& {Kowalski}(2005)}]{2005CoPhC.172..203G}
+{Gazizov}, A., \& {Kowalski}, M. 2005, Computer Physics Communications, 172,
+  203
 
 \bibitem[{Hastie {et~al.}(2001)Hastie, Tibshirani, \&
   Friedman}]{hastie01statisticallearning}
