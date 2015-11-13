@@ -65,11 +65,21 @@ Aartsen, M.~G., Ackermann, M., Adams, J., {et~al.} 2015, The Astrophysical
 {Abbasi}, R., {Ackermann}, M., {Adams}, J., {et~al.} 2009, Nuclear Instruments
   and Methods in Physics Research A, 601, 294
 
-\bibitem[{{Abbasi} {et~al.}(2012){Abbasi}, {Abdou}, {Abu-Zayyad}, {Ackermann},
-  {Adams}, {Aguilar}, {Ahlers}, {Allen}, {Altmann}, {Andeen}, \&
+\bibitem[{{Abbasi} {et~al.}(2011){Abbasi}, {Abdou}, {Abu-Zayyad}, {Adams},
+  {Aguilar}, {Ahlers}, {Andeen}, {Auffenberg}, {Bai}, \&
+  et~al.}]{2011A&A...527A..28I}
+{Abbasi}, R., {Abdou}, Y., {Abu-Zayyad}, T., {et~al.} 2011, Astronomy \&
+  Astrophsyics, 527, A28
+
+\bibitem[{{Abbasi} {et~al.}(2012{\natexlab{a}}){Abbasi}, {Abdou}, {Abu-Zayyad},
+  {Ackermann}, {Adams}, {Aguilar}, {Ahlers}, {Allen}, {Altmann}, {Andeen}, \&
+  et~al.}]{2012A&A...539A..60A}
+---. 2012{\natexlab{a}}, \aap, 539, A60
+
+\bibitem[{{Abbasi} {et~al.}(2012{\natexlab{b}}){Abbasi}, {Abdou}, {Abu-Zayyad},
+  {Ackermann}, {Adams}, {Aguilar}, {Ahlers}, {Allen}, {Altmann}, {Andeen}, \&
   et~al.}]{2012APh....35..615A}
-{Abbasi}, R., {Abdou}, Y., {Abu-Zayyad}, T., {et~al.} 2012, Astroparticle
-  Physics, 35, 615
+---. 2012{\natexlab{b}}, Astroparticle Physics, 35, 615
 
 \bibitem[{{Achterberg} {et~al.}(2006){Achterberg}, {Ackermann}, {Adams},
   {Ahrens}, {Andeen}, {Atlee}, {Baccus}, {Bahcall}, {Bai}, \&
@@ -163,6 +173,11 @@ Aartsen, M.~G., Ackermann, M., Adams, J., {et~al.} 2015, The Astrophysical
 Hastie, T., Tibshirani, R., \& Friedman, J. 2001, The Elements of Statistical
   Learning, Springer Series in Statistics (New York, NY, USA: Springer New York
   Inc.)
+
+\bibitem[{{Heck} {et~al.}(1998){Heck}, {Knapp}, {Capdevielle}, {Schatz}, \&
+  {Thouw}}]{1998cmcc.book.....H}
+{Heck}, D., {Knapp}, J., {Capdevielle}, J.~N., {Schatz}, G., \& {Thouw}, T.
+  1998, {CORSIKA: a Monte Carlo code to simulate extensive air showers.}
 
 \bibitem[{Kent(1982)}]{Fisher_Bingham}
 Kent, J.~T. 1982, Journal of the Royal Statistical Society. Series B
